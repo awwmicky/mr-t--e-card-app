@@ -8,6 +8,12 @@ Now onto this e-card app. This is the best way for us all to make a thank you ca
 For this e-card app, the goal is the have all 20~ students contribute to this GitHub repository & create your react component. Finally, get it deployed. If/Once I get all of ya to get the MVP done, then it will be time to show Thomas this gift. From all of us to him. Yeeet! 🔥🔥🔥
 
 ## Q & A
+- can I use Bootstrap?
+    - yes, but using `react-bootstrap`
+    - you will need to import these
+        - `import { < bootstrap > } from "react-bootstrap";`
+    - read this for more info
+        - `https://react-bootstrap.github.io/`
 - what do I need to do?
     - read this doc., create a react component
 - how do I add my component to the repository?

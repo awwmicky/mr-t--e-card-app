@@ -9,6 +9,7 @@ import React from 'react'
 
 import './assets/reset.css'
 import './assets/index.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // import ___ from './components/___/'
 import Header from './components/Header/'
