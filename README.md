@@ -3,9 +3,9 @@
 ## Contribution
 Hey y'all! We made it. Also, wanted to say thanks you to each one of ya for being you & coding!
 
-Now onto this e-card app. This is the best way for us all to make a thank you card for the man, the myth, the legend: `Thomas W. Smith`. In return, we can have a chance to demonstrate our newly found skills as Full-Stack Developers!
+Now onto this e-card app. This is the best way for us all to make a thank you card & send appreciation for the man, the myth, the legend: `Thomas W. Smith`. In return, we can have a chance to demonstrate our newly found skills as Full-Stack Developers!
 
-For this e-card app, the goal is the have all 20~ students contribute to this GitHub repository & create your react component. Finally, get it deployed. If/Once I get all of ya to get the MVP done, then it will be time to show Thomas this gift. From all of us to him. Yeeet! 🔥🔥🔥
+For this e-card app, the goal is to have us ~20 students (all) contribute to this GitHub repository & create your react component. Then finally, get it deployed. If/Once I get all of ya to get the MVP done, then it will be time to show Thomas this gift. From all of us to him. Yeeet! 🔥🔥🔥
 
 ## Q & A
 - **can I use Bootstrap?**
