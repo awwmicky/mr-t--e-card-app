@@ -1,0 +1,90 @@
+.mfa-profile {
+    --img-size: 30vmax;
+    --max-size: 275px;
+
+    box-shadow: 
+        0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    ;
+    border-radius: 50%;
+
+    width: var(--img-size);
+    height: var(--img-size);
+    max-width: var(--max-size);
+    max-height: var(--max-size);
+}
+
+/*  */
+
+.personal-message {
+    text-align: justify;
+    line-height: 1.6;
+
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+/*  */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.social-links > a {
+    --size: 8vmin;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: #e8eff5;
+    box-shadow: 
+        7px 7px 15px #bbcfda,
+        -4px -4px 13px #fff,
+        inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+        inset 8px 8px 8px rgba(255, 255, 255, 0.2)
+    ;
+
+    transition: all 0.4s;
+    border-radius: 1rem;
+    /* line-height: var(--size); */
+    
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+
+    width: var(--size);
+    height: var(--size);
+    margin: 0 1em;
+}
+
+.social-links i {
+    color: #727272;
+    transition: all 0.4s;
+    font-size: 2em;
+}
+.social-links > a:hover i {
+    transform: scale(0.96);
+}
+
+.social-links .email:hover i { color: #181b26; }
+.social-links .email:focus i { color: #45474c; }
+
+.social-links .github:hover i { color: #6e5494; }
+.social-links .github:focus i { color: #a38bc9; }
+
+.social-links .linkedin:hover i { color: #0e76a8; }
+.social-links .linkedin:focus i { color: #2498ce; }
+
+.social-links .portfolio:hover i { color: #181b26; }
+.social-links .portfolio:focus i { color: #45474c; }
+
+.social-links > a:hover {
+    box-shadow: 
+        4px 2px 18px #bbcfda,
+        -4px -4px 13px #fff,
+        inset 6px 6px 16px rgba(209, 217, 230, 0.8),
+        inset 8px 8px 8px rgba(255, 255, 255, 0.2)
+    ;
+    transform: translateY(2px);
+}
