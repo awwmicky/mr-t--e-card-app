@@ -23,6 +23,9 @@ For this e-card app, the goal is the have all 20~ students contribute to this Gi
     - `git clone` this repository
     - create a react component
     - once you got the invite, read this doc.
+- does syntax matter for this?
+    - yes, very! The main pattern to follow is setting up your name
+    - `<YourName />` | `/your-name` | `"your name"`
 - how do I push to the repository?
     - open `./docs/git-collab-setup.md`
     - using `git checkout -b <branch-name>` for branches
@@ -61,7 +64,7 @@ For this e-card app, the goal is the have all 20~ students contribute to this Gi
         - https://momentumdash.com/
         - https://bit.ly/momentum-chrome-app
     - let me know if anyone is down!
-    
+
 ---
 
 ## Repo Setup
@@ -76,6 +79,9 @@ For this e-card app, the goal is the have all 20~ students contribute to this Gi
     - personal/bonus feature
     - styling/interacting
     - random easter egg?
+- go simple or go crazy with it all
+    - make it a networking looking app
+    - make it a creative looking app
 
 ```jsx
 (
@@ -113,9 +119,9 @@ For this e-card app, the goal is the have all 20~ students contribute to this Gi
         - `/YourName → YourName.css YourName.js`
     - import & route your component
         - replace `___` with `<YourName>`
-        - replace `+++` with `<your-name>`
+        - replace `~~~` with `<your-name>`
         - `import ___ from './views/StudentPage/___/___';`
-        - `<Route exact path="/+++>" component={ ___ } />`
+        - `<Route exact path="/~~~>" component={ ___ } />`
 - setup image
     - add your image in `/public/assets/images/other` path
         - `/<your-profile.img>`
