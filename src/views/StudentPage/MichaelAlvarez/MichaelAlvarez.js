@@ -8,9 +8,9 @@ import './MichaelAlvarez.css'
 export default function MichaelAlvarez () {
 
   return (
-    <main className="component">
+    <main className="component mfa-page">
       <div className="container-wrapper">
-        <h2>
+        <h2 className="mfa-full-name">
           <span>Micky</span>
           <a 
             href="https://www.youtube.com/watch?v=4pkhEyRoidk"
@@ -33,7 +33,8 @@ export default function MichaelAlvarez () {
           alt="mfa-profile"
           className="mfa-profile"
         />
-        <div className="personal-message">
+
+        <div className="mfa-personal-message">
           <blockquote>
             A memorable moment in class was when the "S" key
             on your keyboard just didn't work midway through
@@ -44,7 +45,7 @@ export default function MichaelAlvarez () {
           {/* <p>Have you ever tried a shrimp burrito???</p> */}
         </div>
         
-        <div className="social-links">
+        <div className="mfa-social-links">
           <a
             href="mailto:michael.fred.alvarez@gmail.com"
             title="Direct Email"

@@ -1,3 +1,15 @@
+/* .mfa-page div > * { margin: 10px 0; } */
+
+/*  */
+
+.mfa-full-name,
+.mfa-full-name > a 
+{
+    cursor: crosshair;
+}
+
+/*  */
+
 .mfa-profile {
     --img-size: 30vmax;
     --max-size: 275px;
@@ -16,7 +28,7 @@
 
 /*  */
 
-.personal-message {
+.mfa-personal-message {
     text-align: justify;
     line-height: 1.6;
 
@@ -27,12 +39,13 @@
 
 /*  */
 
-.social-links {
+.mfa-social-links {
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
     padding: 1em;
 }
-.social-links > a {
+.mfa-social-links > a {
     --size: 8vmin;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -58,33 +71,39 @@
     margin: 0 1em;
 }
 
-.social-links i {
+.mfa-social-links i {
     color: #727272;
     transition: all 0.4s;
     font-size: 2em;
 }
-.social-links > a:hover i {
+.mfa-social-links > a:hover i {
     transform: scale(0.96);
 }
 
-.social-links .email:hover i { color: #181b26; }
-.social-links .email:focus i { color: #45474c; }
+.mfa-social-links .email:hover i { color: #181b26; }
+.mfa-social-links .email:focus i { color: #45474c; }
 
-.social-links .github:hover i { color: #6e5494; }
-.social-links .github:focus i { color: #a38bc9; }
+.mfa-social-links .github:hover i { color: #6e5494; }
+.mfa-social-links .github:focus i { color: #a38bc9; }
 
-.social-links .linkedin:hover i { color: #0e76a8; }
-.social-links .linkedin:focus i { color: #2498ce; }
+.mfa-social-links .linkedin:hover i { color: #0e76a8; }
+.mfa-social-links .linkedin:focus i { color: #2498ce; }
 
-.social-links .portfolio:hover i { color: #181b26; }
-.social-links .portfolio:focus i { color: #45474c; }
+.mfa-social-links .portfolio:hover i { color: #181b26; }
+.mfa-social-links .portfolio:focus i { color: #45474c; }
 
-.social-links > a:hover {
+.mfa-social-links > a:hover {
     box-shadow: 
         4px 2px 18px #bbcfda,
         -4px -4px 13px #fff,
         inset 6px 6px 16px rgba(209, 217, 230, 0.8),
         inset 8px 8px 8px rgba(255, 255, 255, 0.2)
     ;
-    transform: translateY(2px);
+    transform: translateY(0.25em);
+}
+
+/*  */
+
+@media screen and (max-width: 300px) {
+    .mfa-profile { --img-size: 50vw; }
 }

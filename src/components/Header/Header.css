@@ -73,7 +73,7 @@ form:focus-within > .search-box {
     .search-input:not([value=""]):not(:focus):optional + .search-btn,
     .search-box:focus-within > .search-btn 
     {
-        color: red;
+        color: #ff4848;
         background: black;
     }
 
@@ -81,7 +81,6 @@ form:focus-within > .search-box {
         cursor: pointer;
         flex-grow: 1;
         background: var(--trans);
-        /* background: var(--secondary); */
 
         opacity: 0;
         font-size: var(--font-size);
@@ -96,9 +95,8 @@ form:focus-within > .search-box {
         /* display: none; */
     }
     .search-btn {
-        /* background: var(--trans); */
-        background: var(--secondary);
-        color: blue;
+        background: #ccc;
+        color: #007bff;
         
         border-radius: var(--radius);
         font-size: var(--font-size);
