@@ -12,33 +12,33 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 ---
 
 ## Repo Setup
-1. open `terminal/git-bash` to a folder
+1. **open `terminal/git-bash` to a folder**
     - git clone `HTTPS/SSH`
     - `npm install` → `npm start`
-2. demo the app
+2. **demo the app**
     - click the search button
     - click on `michael alvarez`
     - press enter
     - done.
 
 ## Create Student Component Setup
-1. go to `./src/students.json`
+1. **go to `./src/students.json`**
     - add your name to the `student.json` file
     - **COPY:** `{ "name" : "<your name>" }`
-2. go to `./public/assets/images/other/`
+2. **go to `./public/assets/images/other/`**
     - add your profile image here
         - `/other/<your-profile.img>`
     - (optional) rename image file to your first & last name
     - (tip) to use the image into your component
         - `<img src="./assets/images/other/<your-profile.img>" alt="student-profile" />`
-3. go to `./src/views/StudentPage/`
+3. **go to `./src/views/StudentPage/`**
     - copy & paste `--COPY-PASTE-RENAME` from & to `/StudentPage/`
     - rename folder & file to your first & last name    
         - `/StudentPage/FirstNameLastName/` & `FirstNameLastName.css FirstNameLastName.js`
         - e.g: `/StudentPage/MichaelAlvarez/` & `MichaelAlvarez.css MichaelAlvarez.js`
     - open `<YourName>.js`, then replace `FirstNameLastName` with your first & last name
         - e.g: `import './MichaelAlvarez.css'` & `export default function MichaelAlvarez () {}`
-4. go to `./src/index.js`
+4. **go to `./src/index.js`**
     - import & route your component
         - proper syntax setup
             - component === YourName
@@ -54,7 +54,9 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
         - there is always room for improvement for the next reader
         - thanks for reading this and well, helping out
 
-## MVP Component
+---
+
+## MVP Component Breakdown
 - minimum: name, image, message, & links
 - add any additional stuff onto your component
     - personal/bonus feature
