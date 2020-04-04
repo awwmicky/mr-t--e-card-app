@@ -9,12 +9,12 @@ import {
 import Header from "./template/Header/"
 import ErrorPage from "./views/ErrorPage/"
 import HomePage from "./views/HomePage/"
-// import ___ from './views/StudentPage/___/___'
+// import FirstNameLastName from './views/StudentPage/FirstNameLastName/FirstNameLastName'
 
 /* ↓ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↓ */
 import MichaelAlvarez from "./views/StudentPage/MichaelAlvarez/MichaelAlvarez"
 import MarioAlvarez from "./views/StudentPage/MarioAlvarez/MarioAlvarez"
-import Adi from "./components/Adi/Adi"
+import Adi from "./views/StudentPage/Adi/Adi"
 /* ↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑ */
 
 
@@ -25,19 +25,19 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 
 
-function App() {
+/* <Route exact path="/first-name-last-name" component={FirstNameLastName} /> */
+function App () {
   return (
     <>
       <Router>
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} /> 
-          {/* <Route exact path="/your-name" component={YourName} />  */}
 
           {/* ↓ ADD YOUR ROUTE COMPONENT HERE ↓ */}
           <Route exact path="/michael-alvarez" component={MichaelAlvarez} />
           <Route exact path="/mario-alvarez" component={MarioAlvarez} />
-          {/* <Adi /> */}
+          <Route exact path="/adi" component={Adi} />
           {/* ↑ ADD YOUR ROUTE COMPONENT HERE ↑ */}
 
           <Route path="*" component={ErrorPage} />
