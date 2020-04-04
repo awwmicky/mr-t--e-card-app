@@ -9,7 +9,10 @@ import {
 import Header from "./template/Header/"
 import ErrorPage from "./views/ErrorPage/"
 import HomePage from "./views/HomePage/"
+
+/* IMPORT & ROUTE YOUR COMPONENT */
 // import FirstNameLastName from './views/StudentPage/FirstNameLastName/FirstNameLastName'
+// <Route exact path="/first-name-last-name" component={FirstNameLastName} />
 
 /* ↓ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↓ */
 import MichaelAlvarez from "./views/StudentPage/MichaelAlvarez/MichaelAlvarez"
@@ -25,7 +28,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 
 
-/* <Route exact path="/first-name-last-name" component={FirstNameLastName} /> */
 function App () {
   return (
     <>
