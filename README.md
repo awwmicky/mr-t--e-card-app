@@ -24,7 +24,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 ## Create Student Component Setup
 1. go to `./src/students.json`
     - add your name to the `student.json` file
-    - COPY: `{ "name" : "<your name>" }`
+    - **COPY:** `{ "name" : "<your name>" }`
 2. go to `./public/assets/images/other/`
     - add your profile image here
         - `/other/<your-profile.img>`
@@ -32,20 +32,21 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
     - (tip) to use the image into your component
         - `<img src="./assets/images/other/<your-profile.img>" alt="student-profile" />`
 3. go to `./src/views/StudentPage/`
-    - copy & paste `--COPY-PASTE-FOLDER` from & to `/StudentPage/`
-    - rename folder & file to your first & last name
+    - copy & paste `--COPY-PASTE-RENAME` from & to `/StudentPage/`
+    - rename folder & file to your first & last name    
+        - `/StudentPage/FirstNameLastName/` & `FirstNameLastName.css FirstNameLastName.js`
         - e.g: `/StudentPage/MichaelAlvarez/` & `MichaelAlvarez.css MichaelAlvarez.js`
-    - open `<YourName>.js`, then replace `___` with your first & last name
+    - open `<YourName>.js`, then replace `FirstNameLastName` with your first & last name
         - e.g: `import './MichaelAlvarez.css'` & `export default function MichaelAlvarez () {}`
 4. go to `./src/index.js`
     - import & route your component
         - proper syntax setup
-            - component === YourName ( `___` )
-            - route path === your-name ( `~~~` )
-    - replace `___` / `~~~` with your first & last name
-        - `import ___ from './views/StudentPage/___/___';`
+            - component === YourName
+            - route path === your-name
+    - replace `first-name-last-name` / `FirstNameLastName` with your first & last name
+        - **COPY:** `import FirstNameLastName from './views/StudentPage/FirstNameLastName/FirstNameLastName';`
         - e.g: `import MichaelAlvarez from './views/StudentPage/MichaelAlvarez/MichaelAlvarez';`
-        - `<Route exact path="/~~~>" component={ ___ } />`
+        - **COPY:** `<Route exact path="/first-name-last-name>" component={ FirstNameLastName } />`
         - e.g: `<Route exact path="/michael-alvarez>" component={ MichaelAlvarez } />`
 - read Q & A if setup instructions are confusing
     - **[Read Q & A Now](#repo-setup)**
