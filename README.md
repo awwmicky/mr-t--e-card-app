@@ -1,5 +1,7 @@
 # Project: E-Card for Mr. T
 
+## **[Start Contribution Now](#repo-setup)**
+
 ## Contribution
 Hey y'all! We made it. Also, wanted to say thanks you to each one of ya for being you & coding!
 
@@ -7,71 +9,49 @@ Now onto this e-card app. This is the best way for us all to make a thank you ca
 
 For this e-card app, the goal is to have us ~20 students (all) contribute to this GitHub repository & create your react component. Then finally, get it deployed. If/Once I get all of ya to get the MVP done, then it will be time to show Thomas this gift. From all of us to him. Yeeet! 🔥🔥🔥
 
-## Q & A
-- **can I use Bootstrap?**
-    - yes, with `react-bootstrap`
-    - you will need to import this
-        - `import { < bootstrap > } from "react-bootstrap";`
-    - read this for more info
-        - `https://react-bootstrap.github.io/`
-    - or use regular Bootstrap style
-        - `<button className="btn btn-primary">Click</button>`
-- **what is the url to the GitHub Repository?**
-    - https://github.com/awwmicky/mr-t--e-card-app
-- **what do I need to do?**
-    - read this doc.
-    - `git clone` this repository
-    - create a react component
-    - once you got the invite, read this doc.
-- **does syntax matter for this?**
-    - yes, very! The main pattern to follow is setting up your name
-    - `<YourName />` | `/your-name` | `"your name"`
-- **how do I push to the repository?**
-    - open `./docs/git-collab-setup.md`
-    - using `git checkout -b <branch-name>` for branches
-    - or ask me any questions, maybe
-- **will there be any merge conflicts?**
-    - if you read this `README.md` file, no
-    - since react is component based, there should not be any merge conflicts
-        - if this is a merge conflict, let me know ASAP to resolve it
-- **how can I track/keep this repository**
-    - check to see 3 buttons: Watch, Star, Fork
-    - click `Fork` to keep a copy of this repository, and it will be added to your GitHub Account
-    - click `Star` to follow-up with this repository
-    - click `Watch` to track any new updates from this repository
-- **how do I know if I have access to this GitHub Repository?**
-    - this is a private repository
-    - I (Micky) will sent out a link for us to collaborate
-- **what are you (Micky) doing with this app?**
-    - I want to have an app where the whole class collaborated
-    - maybe try to get the TA's and us all to contribute
-- **can I follow you on GitHub?**
-    - sure thing! 😨  https://github.com/awwmicky
-    - better question! 🤔 can I (Micky) follow you on GitHub? Send me you GitHub page
-- **how can we communicate to you (Micky)?**
-    - Slack
-        - UCB-SF...
-        - Trilogy Network
-    - Discord
-        - a link to Discord
-        - https://discord.gg/SbjB4t3
-- **what is the next thing you (Micky) are going to do?**
-    - write a novel, travel the world, & meditate on a mountain. Well maybe. hmm…
-    - the next small project will be re-learning & building an Authentication App
-    - still interested in making an open source full-stack app 
-        - Dashboard App
-        - modular components & menu setting
-        - https://momentumdash.com/
-        - https://bit.ly/momentum-chrome-app
-    - let me know if anyone is down!
-
 ---
 
 ## Repo Setup
-- `create folder` for project
-- open `terminal/git-bash` to folder path
+1. open `terminal/git-bash` to a folder
     - git clone `HTTPS/SSH`
     - `npm install` → `npm start`
+2. demo the app
+    - click the search button
+    - click on `michael alvarez`
+    - press enter
+    - done.
+
+## Create Student Component Setup
+1. go to `./src/students.json`
+    - add your name to the `student.json` file
+    - COPY: `{ "name" : "<your name>" }`
+2. go to `./public/assets/images/other/`
+    - add your profile image here
+        - `/other/<your-profile.img>`
+    - (optional) rename image file to your first & last name
+    - (tip) to use the image into your component
+        - `<img src="./assets/images/other/<your-profile.img>" alt="student-profile" />`
+3. go to `./src/views/StudentPage/`
+    - copy & paste `--COPY-PASTE-FOLDER` from & to `/StudentPage/`
+    - rename folder & file to your first & last name
+        - e.g: `/StudentPage/MichaelAlvarez/` & `MichaelAlvarez.css MichaelAlvarez.js`
+    - open `<YourName>.js`, then replace `___` with your first & last name
+        - e.g: `import './MichaelAlvarez.css'` & `export default function MichaelAlvarez () {}`
+4. go to `./src/index.js`
+    - import & route your component
+        - proper syntax setup
+            - component === YourName ( `___` )
+            - route path === your-name ( `~~~` )
+    - replace `___` / `~~~` with your first & last name
+        - `import ___ from './views/StudentPage/___/___';`
+        - e.g: `import MichaelAlvarez from './views/StudentPage/MichaelAlvarez/MichaelAlvarez';`
+        - `<Route exact path="/~~~>" component={ ___ } />`
+        - e.g: `<Route exact path="/michael-alvarez>" component={ MichaelAlvarez } />`
+- read Q & A if setup instructions are confusing
+    - **[Read Q & A Now](#repo-setup)**
+    - send me open feedback if there are parts in this `README.md` file that is confusing
+        - there is always room for improvement for the next reader
+        - thanks for reading this and well, helping out
 
 ## MVP Component
 - minimum: name, image, message, & links
@@ -82,6 +62,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 - go simple or go crazy with it all
     - make it a networking looking app
     - make it a creative looking app
+- component template:
 
 ```jsx
 (
@@ -110,7 +91,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 )
 ``` 
 
-## React Setup
+## Quick Read Setup (...if readable)
 - setup student DB (json)
     - add your name to the `student.json` file
         - `{ "name" : "<your-name>" }`
@@ -130,8 +111,76 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 
 ---
 
-Tip: to highlight & select the same word in different lines in VS Code
+## Q & A
+- **do I push to the (git) master branch?**
+    - NO NO NOOOOOO!!! thank you.
+    - create a (git) branch first, then push from your branch
+- **can I use Bootstrap?**
+    - yes, with `react-bootstrap`
+    - you will need to import this
+        - `import { < bootstrap > } from "react-bootstrap";`
+    - read this for more info
+        - `https://react-bootstrap.github.io/`
+    - or use regular Bootstrap style
+        - `<button className="btn btn-primary">Click</button>`
+- **what are the steps for git collaboration?**
+    - **[Read Git Collab Setup](./docs/git-collab-setup.md)**
+- **what is the url to the GitHub Repository?**
+    - GitHub: https://github.com/awwmicky/mr-t--e-card-app
+    - Webpage: **TBA**
+- **what do I need to do?**
+    - once you got the invite, read this doc: **[Repo Setup](#repo-setup)**
+    - `git clone` this repository
+    - create a react component in `/views/StudentPage/`
+- **does syntax matter for this?**
+    - YES, VERY! The main pattern to follow is setting up your name
+    - `<YourName />` | `/your-name` | `"your name"`
+- **how do I push to the repository?**
+    - open `./docs/git-collab-setup.md`
+    - using `git checkout -b <branch-name>` for branches
+    - or ask me any questions, maybe
+- **can I approve & merge the pull request?**
+    - for no accidental (git) push to the master, there will be a set permission to this GitHub Repository
+    - you are able to merge if someone else approves your pull request
+    - the admin will try to approve & merge ASAP
+- **will there be any merge conflicts?**
+    - if you read this `README.md` file, no
+    - since react is component based, there should not be any merge conflicts
+        - if this is a merge conflict, let me know ASAP to resolve it
+        - send me a message via Slack, Discord, or GitHub Issue's
+- **how can I track/keep this repository**
+    - check to see 3 buttons: Watch, Star, Fork
+    - click `Fork` to keep a copy of this repository, and it will be added to your GitHub Account
+    - click `Star` to follow-up with this repository
+    - click `Watch` to track any new updates from this repository
+- **how do I know if I have access to this GitHub Repository?**
+    <!-- - this is a private repository -->
+    - I (Micky) will send out a link for us to collaborate
+    - if you did not receive it, send me a message via Slack or Discord
+- **what are you (Micky) doing with this app?**
+    - I want to have an app where the whole class collaborate
+    - make an app for networking & appreciation
+    - maybe try to get the TA's and us all to contribute
+- **can I follow you on GitHub?**
+    - sure thing! 😨  https://github.com/awwmicky
+    - better question! 🤔 can I (Micky) follow you on GitHub? Send me you GitHub page
+- **how can we communicate to you (Micky)?**
+    - Slack
+        - UCB-SF...
+        - Trilogy Network
+    - Discord
+        - a link to Discord
+        - https://discord.gg/SbjB4t3
+- **what is the next thing you (Micky) are going to do?**
+    - write a novel, travel the world, & meditate on a mountain. Well maybe. hmm…
+    - the next small project will be re-learning & building an Authentication App
+    - still interested in making an open source full-stack app 
+        - Dashboard App
+        - modular components & menu setting
+        - https://momentumdash.com/
+        - https://bit.ly/momentum-chrome-app
+    - let me know if anyone is down!
 
-Windows: `CTRL + D`
+---
 
-Macs: `CMD + D`
+Keep on chucking code!~~

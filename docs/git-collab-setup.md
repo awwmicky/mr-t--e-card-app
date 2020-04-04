@@ -73,4 +73,3 @@
 - able to delete the used branch before/after 'pull'
     - better to remeber to delete then maintain
     - can create potential confusion/problems
--
