@@ -17,7 +17,7 @@ export default function FirstNameLastName () {
       </p>
       <div>
         <a 
-          href=""
+          href="/"
           target="_blank" 
           rel="noopener noreferrer"
           title=""

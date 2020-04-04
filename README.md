@@ -81,7 +81,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
   </p>
   <div>
     <a 
-      href="" 
+      href="/" 
       target="_blank" 
       rel="noopener noreferrer"
       title=""
