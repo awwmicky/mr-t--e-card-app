@@ -1,0 +1,12 @@
+root=true
+
+[*]
+trim_trailing_whitespace = true
+
+[package.json]
+indent_style = space
+indent_size = 2
+
+[./src/index.js]
+indent_style = space
+indent_size = 2

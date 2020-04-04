@@ -1,0 +1,11 @@
+{
+    "extends": [ "prettier" , "prettier/react" ],
+    "rules": { "prettier/prettier": "error" },
+    "plugins": [ "prettier" ],
+    "editor.formatOnSave": true,
+    "[javascript]": { "editor.formatOnSave": false },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "beautify.ignore": [ "**/*.js" ]
+    // "prettier.disableLanguages": [ "js" ]
+}

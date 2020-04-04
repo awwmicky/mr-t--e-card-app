@@ -1,9 +1,9 @@
 // import * as serviceWorker from './serviceWorker'
 import ReactDOM from "react-dom"
 import React from "react"
-import { 
-  BrowserRouter as Router, 
-  Route , Switch 
+import {
+  BrowserRouter as Router,
+  Route , Switch
 } from "react-router-dom"
 
 import Header from "./template/Header/"
@@ -34,7 +34,7 @@ function App () {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={HomePage} /> 
+          <Route exact path="/" component={HomePage} />
 
           {/* ↓ ADD YOUR ROUTE COMPONENT HERE ↓ */}
           <Route exact path="/michael-alvarez" component={MichaelAlvarez} />
@@ -51,6 +51,6 @@ function App () {
 
 
 
-const root = document.getElementById("root")
-ReactDOM.render(<App />, root)
+const root = document.getElementById("root");
+ReactDOM.render(<App /> , root)
 // serviceWorker.unregister();
