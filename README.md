@@ -18,21 +18,24 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 2. **demo the app**
     - click the search button
     - click on `michael alvarez`
-    - press enter
-    - done
+    - done.
 
 ## Create Student Component Setup
 1. **go to `./src/students.json`**
     - add your name to the `student.json` file
     - **COPY:** `{ "name" : "<your name>" }`
 2. **go to `./public/assets/images/other/`**
+    - skip step to add for later
     - add your profile image here
         - `/other/<your-profile.img>`
     - (optional) rename image file to your first & last name
     - (tip) to use the image into your component
         - `<img src="./assets/images/other/<your-profile.img>" alt="student-profile" />`
 3. **go to `./src/views/StudentPage/`**
-    - copy & paste `--COPY-PASTE-RENAME` from & to `/StudentPage/`
+    - follow these steps
+        - copy the `--COPY-PASTE-RENAME` template folder
+        - paste it on the `/StudentPage/` folder
+        - rename the new `--COPY-PASTE-RENAME copy` folder & files with your first & last name
     - rename folder & file to your first & last name
         - `/StudentPage/FirstNameLastName/` & `FirstNameLastName.css FirstNameLastName.js`
         - e.g: `/StudentPage/MichaelAlvarez/` & `MichaelAlvarez.css MichaelAlvarez.js`
@@ -48,6 +51,23 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
         - e.g: `import MichaelAlvarez from './views/StudentPage/MichaelAlvarez/MichaelAlvarez';`
         - **COPY:** `<Route exact path="/first-name-last-name>" component={ FirstNameLastName } />`
         - e.g: `<Route exact path="/michael-alvarez>" component={ MichaelAlvarez } />`
+5. **open terminal & test**
+    - `npm start` → open browser
+    - click the search button
+    - search & select your name
+    - done
+6. **push to GitHub**
+    - `git checkout -b <branch-name>`
+    - `git add *`
+    - `git commit -m "component update"`
+    - `git push origin <branch-name>`
+    - optional
+        - open branch & merge [pull-request](https://github.com/awwmicky/mr-t--e-card-app/branches)
+        - delete GitHub branch → go to vscode
+        - `git checkout master`
+        - `git pull`
+- read Git Collab Setup doc. if confused
+    -   **[Read Git Collab Setup Now](./docs/git-collab-setup.md)**
 - read Q & A if setup instructions are confusing
     - **[Read Q & A Now](#repo-setup)**
     - send me open feedback if there are parts in this `README.md` file that is confusing
@@ -157,7 +177,6 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
     - click `Star` to follow-up with this repository
     - click `Watch` to track any new updates from this repository
 - **how do I know if I have access to this GitHub Repository?**
-    <!-- - this is a private repository -->
     - I (Micky) will send out a link for us to collaborate
     - if you did not receive it, send me a message via Slack or Discord
 - **what are you (Micky) doing with this app?**
