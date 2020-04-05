@@ -19,7 +19,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
     - click the search button
     - click on `michael alvarez`
     - press enter
-    - done.
+    - done
 
 ## Create Student Component Setup
 1. **go to `./src/students.json`**
@@ -33,7 +33,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
         - `<img src="./assets/images/other/<your-profile.img>" alt="student-profile" />`
 3. **go to `./src/views/StudentPage/`**
     - copy & paste `--COPY-PASTE-RENAME` from & to `/StudentPage/`
-    - rename folder & file to your first & last name    
+    - rename folder & file to your first & last name
         - `/StudentPage/FirstNameLastName/` & `FirstNameLastName.css FirstNameLastName.js`
         - e.g: `/StudentPage/MichaelAlvarez/` & `MichaelAlvarez.css MichaelAlvarez.js`
     - open `<YourName>.js`, then replace `FirstNameLastName` with your first & last name
@@ -71,7 +71,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 (
 <main>
   <h2>First & Last Name</h2>
-  <img 
+  <img
     src="./assets/images/other/< your-profile.img >"
     alt="student-portfolio"
   />
@@ -80,9 +80,9 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
     - additional message for Thomas (feedback/question)
   </p>
   <div>
-    <a 
-      href="/" 
-      target="_blank" 
+    <a
+      href="/"
+      target="_blank"
       rel="noopener noreferrer"
       title=""
     >
@@ -92,7 +92,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
   </div>
 </main>
 )
-``` 
+```
 
 ## Quick Read Setup (...if readable)
 - setup student DB (json)
@@ -177,7 +177,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 - **what is the next thing you (Micky) are going to do?**
     - write a novel, travel the world, & meditate on a mountain. Well maybe. hmm…
     - the next small project will be re-learning & building an Authentication App
-    - still interested in making an open source full-stack app 
+    - still interested in making an open source full-stack app
         - Dashboard App
         - modular components & menu setting
         - https://momentumdash.com/
