@@ -18,7 +18,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 2. **demo the app**
     - click the search button
     - click on `michael alvarez`
-    - done.
+    - done
 
 ## Create Student Component Setup
 1. **go to `./src/students.json`**
