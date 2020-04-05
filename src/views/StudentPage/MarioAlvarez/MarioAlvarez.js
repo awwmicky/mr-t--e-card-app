@@ -1,20 +1,19 @@
-import React from "react"
+import React from "react";
 
-// , { useState }
-
-import "./MarioAlvarez.css"
+import "./MarioAlvarez.css";
 
 export default function MarioAlvarez() {
   return (
     <main>
-      <h2> First & Last Name </h2>
+      <h2> Mario Alvarez </h2>
       <img
         src="./assets/images/other/< your-profile.img >"
         alt="student-portfolio"
       />
       <p>
-        -a memorable / funny moment with Thomas & the class - additional message
-        for Thomas(feedback / question)
+        Thanks for being an incredible mentor thoughout the beginning of my
+        coding journey.We learned so much and now I know we barely scratched the
+        surface.I 'm excited to keep learning and practicing to master my craft!
       </p>
       <div>
         <a href="" target="_blank" rel="noopener noreferrer" title="">
@@ -23,5 +22,5 @@ export default function MarioAlvarez() {
         </a>
       </div>
     </main>
-  )
+  );
 }
