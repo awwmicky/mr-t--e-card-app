@@ -1,5 +1,5 @@
-import React, { 
-  useState , useEffect , useRef 
+import React, {
+  useState , useEffect , useRef
 } from 'react'
 // import { Link } from 'react-router-dom'
 import { withRouter } from 'react-router-dom'
@@ -9,13 +9,13 @@ import students from '../../students.json'
 
 
 function Header (props) {
-  
+
   const [state , setState] = useState({
     display: false,
     options: students,
     search: ''
   });
-  const { 
+  const {
     display,
     options,
     search
@@ -27,7 +27,7 @@ function Header (props) {
   // useEffect(() => { console.log('Search:' , search) }, [ search ])
 
   /*  */
-  
+
   const searchRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -44,9 +44,9 @@ function Header (props) {
       document.removeEventListener('click', clickEvent)
     }
   }, [ ])
-  
+
   /*  */
-  
+
   const submitForm = (e) => {
     e.preventDefault()
     const studentRoute = search.toLowerCase().split(' ').join('-');
@@ -66,13 +66,17 @@ function Header (props) {
 
   const setOption = (e) => {
     e.preventDefault()
-    inputRef.current.focus()
+    // inputRef.current.focus()
 
     const { textContent } = e.target;
-    setState( (prevState) => ({ 
+    const studentRoute = textContent.toLowerCase().split(' ').join('-');
+    console.log('Student:' , studentRoute)
+    props.history.push(`/${ studentRoute }`)
+
+    setState( (prevState) => ({
       ...prevState,
       display: false,
-      search: textContent 
+      search: ''
     }))
   };
 
@@ -82,7 +86,7 @@ function Header (props) {
       opt.name.startsWith(search)
     ))
     .map( (opt , idx) => (
-      <span 
+      <span
         key={idx}
         className="student-opt"
         // tabIndex="1"
@@ -98,15 +102,15 @@ function Header (props) {
     <header>
       <div className="wrapper">
         <h1>Project E-Card</h1>
-        <form 
+        <form
           className="search-form"
           ref={ searchRef }
           onSubmit={ submitForm }
         >
           <div className="search-box">
-            <input 
-              type="search" 
-              name="search" 
+            <input
+              type="search"
+              name="search"
               className="search-input"
               placeholder="enter student name…"
               autoComplete="off"
@@ -124,7 +128,7 @@ function Header (props) {
           </div>
           {
             display && (
-              <section 
+              <section
                 className="search-selection"
               >{ filterOption() }
               </section>
