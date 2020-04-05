@@ -1,7 +1,7 @@
 import React, {
   useState , useEffect , useRef
 } from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { withRouter } from 'react-router-dom'
 import './Header.css'
 import students from '../../students.json'
@@ -73,11 +73,7 @@ function Header (props) {
     console.log('Student:' , studentRoute)
     props.history.push(`/${ studentRoute }`)
 
-    setState( (prevState) => ({
-      ...prevState,
-      display: false,
-      search: ''
-    }))
+    setState( (prevState) => ({ ...prevState , display:false }))
   };
 
   const filterOption = () => {
@@ -89,7 +85,6 @@ function Header (props) {
       <span
         key={idx}
         className="student-opt"
-        // tabIndex="1"
         onClick={ setOption }
       >{ opt.name }
       </span>
@@ -101,7 +96,11 @@ function Header (props) {
   return (
     <header>
       <div className="wrapper">
-        <h1>Project E-Card</h1>
+        <h1>
+          <Link to="/">
+            Project E-Card
+          </Link>
+        </h1>
         <form
           className="search-form"
           ref={ searchRef }
