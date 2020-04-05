@@ -18,7 +18,10 @@ import HomePage from "./views/HomePage/"
 import MichaelAlvarez from "./views/StudentPage/MichaelAlvarez/MichaelAlvarez"
 import MarioAlvarez from "./views/StudentPage/MarioAlvarez/MarioAlvarez"
 import Adi from "./views/StudentPage/Adi/Adi"
+import LarryNan from"./views/StudentPage/LarryNan/LarryNan"
 /* ↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑ */
+
+
 
 
 
@@ -40,6 +43,7 @@ function App () {
           <Route exact path="/michael-alvarez" component={MichaelAlvarez} />
           <Route exact path="/mario-alvarez" component={MarioAlvarez} />
           <Route exact path="/adi" component={Adi} />
+          <Route exact path="/larry-nan" component={LarryNan} />
           {/* ↑ ADD YOUR ROUTE COMPONENT HERE ↑ */}
 
           <Route path="*" component={ErrorPage} />
