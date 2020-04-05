@@ -23,6 +23,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 ## Create Student Component Setup
 1. **go to `./src/students.json`**
     - add your name to the `student.json` file
+        - make you name all lowercase
     - **COPY:** `{ "name" : "<your name>" }`
 2. **go to `./public/assets/images/other/`**
     - skip step to add for later
