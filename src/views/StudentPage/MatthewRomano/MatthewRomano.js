@@ -5,8 +5,8 @@ import './MatthewRomano.css'
 export default function MatthewRomano () {
 
   return (
-    <main>
-      <h2>First & Last Name</h2>
+    <main className="component matt-page">
+      <h2>Matthew (Big Willy) Romano</h2>
       <img 
         src="./assets/images/other/< your-profile.img >"
         alt="student-portfolio"
