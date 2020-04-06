@@ -14,6 +14,10 @@
     font-weight: 800;
 }
 
-.matt-page a {
-    color: pink;
+.matt-page p {
+    color: hotpink;
+}
+
+.matt-page div a {
+    color: lavender;
 }
