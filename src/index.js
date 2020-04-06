@@ -14,12 +14,12 @@ import HomePage from "./views/HomePage/"
 // import FirstNameLastName from './views/StudentPage/FirstNameLastName/FirstNameLastName'
 // <Route exact path="/first-name-last-name" component={FirstNameLastName} />
 
-/* ↓ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↓ */
+/* ↓↓↓ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↓↓↓ */
 import MichaelAlvarez from "./views/StudentPage/MichaelAlvarez/MichaelAlvarez"
 import MarioAlvarez from "./views/StudentPage/MarioAlvarez/MarioAlvarez"
 import Adi from "./views/StudentPage/Adi/Adi"
 import LarryNan from"./views/StudentPage/LarryNan/LarryNan"
-/* ↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑ */
+/* ↑↑↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑↑↑ */
 
 
 
@@ -39,12 +39,12 @@ function App () {
         <Switch>
           <Route exact path="/" component={HomePage} />
 
-          {/* ↓ ADD YOUR ROUTE COMPONENT HERE ↓ */}
+          {/* ↓↓↓ ADD YOUR ROUTE COMPONENT HERE ↓↓↓ */}
           <Route exact path="/michael-alvarez" component={MichaelAlvarez} />
           <Route exact path="/mario-alvarez" component={MarioAlvarez} />
           <Route exact path="/adi" component={Adi} />
           <Route exact path="/larry-nan" component={LarryNan} />
-          {/* ↑ ADD YOUR ROUTE COMPONENT HERE ↑ */}
+          {/* ↑↑↑ ADD YOUR ROUTE COMPONENT HERE ↑↑↑ */}
 
           <Route path="*" component={ErrorPage} />
         </Switch>
