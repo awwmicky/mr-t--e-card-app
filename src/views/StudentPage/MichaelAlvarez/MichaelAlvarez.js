@@ -72,7 +72,7 @@ export default function MichaelAlvarez () {
             rel="noopener noreferrer"
             title="Portfolio Page"
             className="portfolio"
-          ><i className="fas fa-user-circle"></i>
+          ><i class="fas fa-id-card"></i>
           </a>
         </div>
       </div>
