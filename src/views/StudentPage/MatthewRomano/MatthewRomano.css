@@ -1,0 +1,19 @@
+.matt-page {
+    /* background-color: steelblue; */
+    /* background-color: wheat; */
+    background-color: coral;
+}
+
+.matt-page > * {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.matt-page h2 {
+    color: crimson;
+    font-weight: 800;
+}
+
+.matt-page a {
+    color: pink;
+}
