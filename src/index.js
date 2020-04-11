@@ -1,38 +1,29 @@
 // import * as serviceWorker from './serviceWorker'
-import ReactDOM from "react-dom"
-import React from "react"
-import {
-  BrowserRouter as Router,
-  Route , Switch
-} from "react-router-dom"
+import ReactDOM from "react-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Header from "./template/Header/"
-import ErrorPage from "./views/ErrorPage/"
-import HomePage from "./views/HomePage/"
+import Header from "./template/Header/";
+import ErrorPage from "./views/ErrorPage/";
+import HomePage from "./views/HomePage/";
 
 /* IMPORT & ROUTE YOUR COMPONENT */
 // import FirstNameLastName from './views/StudentPage/FirstNameLastName/FirstNameLastName'
 // <Route exact path="/first-name-last-name" component={FirstNameLastName} />
 
 /* ↓↓↓ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↓↓↓ */
-import MichaelAlvarez from "./views/StudentPage/MichaelAlvarez/MichaelAlvarez"
-import MarioAlvarez from "./views/StudentPage/MarioAlvarez/MarioAlvarez"
-import Adi from "./views/StudentPage/Adi/Adi"
-import LarryNan from"./views/StudentPage/LarryNan/LarryNan"
-import MatthewRomano from './views/StudentPage/MatthewRomano/MatthewRomano'
+import MichaelAlvarez from "./views/StudentPage/MichaelAlvarez/MichaelAlvarez";
+import MarioAlvarez from "./views/StudentPage/MarioAlvarez/MarioAlvarez";
+import Adi from "./views/StudentPage/AdnanNiaz/AdnanNiaz";
+import LarryNan from "./views/StudentPage/LarryNan/LarryNan";
+import MatthewRomano from "./views/StudentPage/MatthewRomano/MatthewRomano";
 /* ↑↑↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑↑↑ */
 
+import "./assets/index.css";
+import "./assets/reset.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-
-
-
-import "./assets/index.css"
-import "./assets/reset.css"
-import "bootstrap/dist/css/bootstrap.min.css"
-
-
-
-function App () {
+function App() {
   return (
     <>
       <Router>
@@ -43,7 +34,7 @@ function App () {
           {/* ↓↓↓ ADD YOUR ROUTE COMPONENT HERE ↓↓↓ */}
           <Route exact path="/michael-alvarez" component={MichaelAlvarez} />
           <Route exact path="/mario-alvarez" component={MarioAlvarez} />
-          <Route exact path="/adi" component={Adi} />
+          <Route exact path="/adnan-niaz" component={Adi} />
           <Route exact path="/larry-nan" component={LarryNan} />
           <Route exact path="/matthew-romano" component={MatthewRomano} />
           {/* ↑↑↑ ADD YOUR ROUTE COMPONENT HERE ↑↑↑ */}
@@ -52,11 +43,9 @@ function App () {
         </Switch>
       </Router>
     </>
-  )
+  );
 }
 
-
-
 const root = document.getElementById("root");
-ReactDOM.render(<App /> , root)
+ReactDOM.render(<App />, root);
 // serviceWorker.unregister();
