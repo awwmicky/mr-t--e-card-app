@@ -5,30 +5,38 @@ import "./AdnanNiaz.css";
 export default function AdnanNiaz() {
   return (
     <main
+      id="container"
       style={{
         textAlign: "center",
         border: "solid 1px #000",
         padding: "20px",
+        backgroundColor: "#242424",
+        color: "#ddd",
       }}
     >
-      <h2>Adnan Niaz</h2>
-      <img
-        src="./assets/images/other/adi.png"
-        alt="student-portfolio"
-        style={{ width: "300px", borderRadius: "50%" }}
-      />
-      <p
-        style={{
-          width: "50%",
-          margin: "0 auto",
-          padding: "40px 0",
-          lineHeight: "22px",
-          letterSpacing: ".5px",
-        }}
-      >
-        - A memorable/funny moment with Thomas &amp; the class - additional
-        message for Thomas (feedback/question)
-      </p>
+      <div className="view-first pt-3">
+        <img
+          src="./assets/images/other/adi.jpg"
+          alt="student-portfolio"
+          style={{ width: "200px", borderRadius: "50%", position: "relative" }}
+        />
+        <h2 className="py-5">Adnan Niaz</h2>
+        <section className="head"></section>
+
+        <p
+          style={{
+            width: "50%",
+            margin: "0 auto",
+            padding: "40px 0",
+            lineHeight: "22px",
+            letterSpacing: ".5px",
+          }}
+        >
+          - A memorable/funny moment with Thomas &amp; the class - additional
+          message for Thomas (feedback/question)
+        </p>
+      </div>
+
       <div>
         <a href="/" target="_blank" rel="noopener noreferrer" title="">
           <i
