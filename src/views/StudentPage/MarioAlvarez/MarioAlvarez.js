@@ -5,7 +5,7 @@ import "./MarioAlvarez.css";
 export default function MarioAlvarez() {
   return (
     <main>
-      <h2> Mario Alvarez </h2>
+      <h2>Mario Alvarez</h2>
 
       <img src="./assets/images/other/michael-alvarez.jpg" className="" />
 
