@@ -7,24 +7,24 @@ export default function MichaelAlvarez() {
     <main className="component mfa-page">
       <div className="container-wrapper">
         <h2 className="mfa-full-name">
-          <span> Micky </span>{" "}
+          <span> Micky </span>
           <a
             href="https://www.youtube.com/watch?v=4pkhEyRoidk"
             target="_blank"
             rel="noopener noreferrer"
             title="Hidden Egg"
           >
-            F.{" "}
-          </a>{" "}
-          <span> Alvarez </span>{" "}
+            F.
+          </a>
+          <span> Alvarez </span>
           <a
             href="https://www.omfgdogs.com/"
             target="_blank"
             rel="noopener noreferrer"
             title="Easter Egg"
           >
-            (Michael){" "}
-          </a>{" "}
+            (Michael)
+          </a>
         </h2>
         <img
           src="./assets/images/other/michael-alvarez.jpg"
@@ -37,8 +37,8 @@ export default function MichaelAlvarez() {
             just didn 't work midway through the class.That was the key most
             used for that day.We all laughed!Still, you found a work around and
             made a bit about that key.Will never forget!
-          </blockquote>{" "}
-          {/* <p>Have you ever tried a shrimp burrito???</p> */}{" "}
+          </blockquote>
+          {/* <p>Have you ever tried a shrimp burrito???</p> */}
         </div>
         <div className="mfa-social-links">
           <a
@@ -46,8 +46,8 @@ export default function MichaelAlvarez() {
             title="Direct Email"
             className="email"
           >
-            <i className="fas fa-envelope-square"> </i>{" "}
-          </a>{" "}
+            <i className="fas fa-envelope-square"> </i>
+          </a>
           <a
             href="https://www.github.com/awwmicky"
             target="_blank"
@@ -55,8 +55,8 @@ export default function MichaelAlvarez() {
             title="GitHub Account"
             className="github"
           >
-            <i className="fab fa-github"> </i>{" "}
-          </a>{" "}
+            <i className="fab fa-github"> </i>
+          </a>
           <a
             href="https://www.linkedin.com/in/awwmicky/"
             target="_blank"
@@ -64,8 +64,8 @@ export default function MichaelAlvarez() {
             title="LinkedIn Account"
             className="linkedin"
           >
-            <i className="fab fa-linkedin"> </i>{" "}
-          </a>{" "}
+            <i className="fab fa-linkedin"> </i>
+          </a>
           <a
             href="https://awwmicky.github.io/basic-portfolio/"
             target="_blank"
@@ -73,10 +73,10 @@ export default function MichaelAlvarez() {
             title="Portfolio Page"
             className="portfolio"
           >
-            <i class="fas fa-id-card"> </i>{" "}
-          </a>{" "}
-        </div>{" "}
-      </div>{" "}
+            <i class="fas fa-id-card"> </i>
+          </a>
+        </div>
+      </div>
     </main>
   );
 }
