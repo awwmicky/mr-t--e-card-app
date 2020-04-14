@@ -1,13 +1,11 @@
 import React from "react";
 
-import "./MarioAlvarez.css";
-
 export default function MarioAlvarez() {
   return (
     <main>
       <h2>Mario Alvarez</h2>
 
-      <img src="./assets/images/other/michael-alvarez.jpg" className="" />
+      <img src="./assets/images/other/mario-alvarez.jpg" className="" />
 
       <p>
         Thanks for being an incredible mentor thoughout the beginning of my
@@ -16,13 +14,13 @@ export default function MarioAlvarez() {
         Cheers!
       </p>
 
-      <div className="">
+      <div className="container">
         <a
           href="mailto:mariofalvarezjr@gmail.com"
           title="Direct Email"
-          className="email"
+          className="email btn-primary"
         >
-          <i className=""></i>
+          <i className="fas fa-envelope-square"></i>
         </a>
         <a
           href="https://www.github.com/mariofalvarez"
@@ -31,7 +29,7 @@ export default function MarioAlvarez() {
           title="GitHub"
           className="github"
         >
-          <i className=""></i>
+          <i className="fab fa-github-square"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/mariofalvarez/"
@@ -40,7 +38,7 @@ export default function MarioAlvarez() {
           title="LinkedIn"
           className="linkedin"
         >
-          <i className=""></i>
+          <i className="fab fa-linkedin"></i>
         </a>
         {/* <a
           href="https://mariofalvarez.github.io/basic-portfolio/"
