@@ -8,7 +8,7 @@ export default function MarioAlvarez() {
 
         <img
           src="./assets/images/other/mario-alvarez.jpg"
-          alt="MarioProfile"
+          alt="mario-profile"
           className=""
         />
 
