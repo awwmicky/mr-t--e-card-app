@@ -7,11 +7,7 @@ export default function MarioAlvarez() {
     <main>
       <h2> Mario Alvarez </h2>
 
-      <img
-        src="./assets/images/other/michael-alvarez.jpg"
-        alt="mfa-profile"
-        className="mfa-profile"
-      />
+      <img src="./assets/images/other/michael-alvarez.jpg" className="" />
 
       <p>
         Thanks for being an incredible mentor thoughout the beginning of my
@@ -20,31 +16,31 @@ export default function MarioAlvarez() {
         Cheers!
       </p>
 
-      <div className="mfa-social-links">
+      <div className="">
         <a
           href="mailto:mariofalvarezjr@gmail.com"
           title="Direct Email"
           className="email"
         >
-          <i className="fas fa-envelope-square"></i>
+          <i className=""></i>
         </a>
         <a
           href="https://www.github.com/mariofalvarez"
           target="_blank"
           rel="noopener noreferrer"
-          title="GitHub Account"
+          title="GitHub"
           className="github"
         >
-          <i className="fab fa-github"></i>
+          <i className=""></i>
         </a>
         <a
           href="https://www.linkedin.com/in/mariofalvarez/"
           target="_blank"
           rel="noopener noreferrer"
-          title="LinkedIn Account"
+          title="LinkedIn"
           className="linkedin"
         >
-          <i className="fab fa-linkedin"></i>
+          <i className=""></i>
         </a>
         {/* <a
           href="https://mariofalvarez.github.io/basic-portfolio/"
@@ -53,7 +49,7 @@ export default function MarioAlvarez() {
           title="Portfolio Page"
           className="portfolio"
         >
-          <i class="fas fa-id-card"></i>
+          <i class=""></i>
         </a> */}
       </div>
     </main>
