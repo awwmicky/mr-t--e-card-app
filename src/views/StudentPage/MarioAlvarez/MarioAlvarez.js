@@ -3,27 +3,23 @@ import React from "react";
 export default function MarioAlvarez() {
   return (
     <main>
-      <div className="main-container">
-        <h2>Mario Alvarez</h2>
+      <div className="jumbotron">
+        <h1 className="display-4">Mario Alvarez</h1>
 
-        <img
-          src="./assets/images/other/mario-alvarez.jpg"
-          alt="mario-profile"
-          className=""
-        />
-
-        <p>
+        <p className="lead">
           Thanks for being an incredible mentor thoughout the beginning of my
-          coding journey. We learned so much and I know we barely scratched the
-          surface. I'm excited to keep practicing and learning to master my
-          craft. Cheers!
+          coding journey. We learned so much and now I know we just barely
+          scratched the surface. I'm excited to keep practicing and learning to
+          master my craft. Cheers!
         </p>
 
-        <div className="container">
+        <img src="./images/mario.jpg" alt="mario-profile" />
+
+        <p className="lead">
           <a
             href="mailto:mariofalvarezjr@gmail.com"
             title="Direct Email"
-            className="email btn-primary"
+            className="btn btn-primary btn-lg"
           >
             <i className="fas fa-envelope-square"></i>
           </a>
@@ -32,7 +28,7 @@ export default function MarioAlvarez() {
             target="_blank"
             rel="noopener noreferrer"
             title="GitHub"
-            className="github"
+            className="btn btn-primary btn-lg"
           >
             <i className="fab fa-github-square"></i>
           </a>
@@ -41,7 +37,7 @@ export default function MarioAlvarez() {
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"
-            className="linkedin"
+            className="btn btn-primary btn-lg"
           >
             <i className="fab fa-linkedin"></i>
           </a>
@@ -52,9 +48,9 @@ export default function MarioAlvarez() {
           title="Portfolio Page"
           className="portfolio"
           >
-            <i class=""></i>
+            <i className=""></i>
           </a> */}
-        </div>
+        </p>
       </div>
     </main>
   );
