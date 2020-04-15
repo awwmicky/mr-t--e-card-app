@@ -13,7 +13,7 @@ export default function MarioAlvarez() {
           master my craft. Cheers!
         </p>
 
-        <img src="./assets/images/other/mario.jpg" alt="mario-profile" />
+        <img src="./assets/images/profile-pic/mario.jpg" alt="mario-profile" />
 
         <p className="lead">
           <a
@@ -41,15 +41,6 @@ export default function MarioAlvarez() {
           >
             <i className="fab fa-linkedin"></i>
           </a>
-          {/* <a
-          href="https://mariofalvarez.github.io/basic-portfolio/"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Portfolio Page"
-          className="portfolio"
-          >
-            <i className=""></i>
-          </a> */}
         </p>
       </div>
     </main>
