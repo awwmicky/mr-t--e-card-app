@@ -4,16 +4,16 @@ import "./MohamedHtout.css";
 
 export default function MohamedHtout() {
   return (
-    <main className="component mfa-page">
+    <main className="component mh-page">
       <div className="container-wrapper">
         <h2>Mohamed Htout</h2>
         <img
-          src="./assets/images/other/med.jpeg"
-          alt="mfa-profile"
-          className="mfa-profile"
+          src="./assets/images/profile-pic/med.jpeg"
+          alt="mh-profile"
+          className="mh-profile"
         />
 
-        <div className="mfa-personal-message">
+        <div className="mh-personal-message">
           <blockquote>
             There were plenty of memorable moments during the cohort! Thank you
             for everything you have taught us. Please say hi the cow! I have a
@@ -23,7 +23,7 @@ export default function MohamedHtout() {
           <blockquote>Thank you again and again and again!</blockquote>
         </div>
 
-        <div className="mfa-social-links">
+        <div className="mh-social-links">
           <a
             href="mailto:hatout1@gmail.com"
             title="Direct Email"

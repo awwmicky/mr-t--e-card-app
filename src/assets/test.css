@@ -2,6 +2,8 @@ html { border: 2px solid black; }
 body { border: 2px solid silver; }
 div#root { border: 2px solid gray; }
 
+.search-box { border: 2px solid black; }
+
 /* .container-wrapper { border: 2px solid black; } */
 /* form { border: 2px solid gray; } */
 /* input[type=search] { border: 2px solid lightgray; } */
@@ -9,8 +11,12 @@ div#root { border: 2px solid gray; }
 
 /* main { border: 2px solid black; } */
 
-.home-page { border: 2px solid black; }
-.e-card-app { border: 2px solid red; }
-.e-card-front { border: 2px solid blue; }
+/* .home-page { border: 2px solid black; } */
+/* .e-card-app { border: 2px solid red; } */
+/* .e-card-front { border: 2px solid blue; } */
 
-.search-box { border: 2px solid black; }
+/* .mfa-page { border: 2px solid black; } */
+/* .mfa-card { border: 2px solid white; } */
+/* .flex-profile { border: 2px solid black; } */
+/* .flex-profile img { border: 2px solid green; } */
+/* .flex-content { border: 2px solid black; } */

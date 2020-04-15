@@ -1,15 +1,15 @@
-/* .mfa-page div > * { margin: 10px 0; } */
+/* .mh-page div > * { margin: 10px 0; } */
 
 /*  */
 
-.mfa-full-name,
-.mfa-full-name > a {
+.mh-full-name,
+.mh-full-name > a {
   cursor: crosshair;
 }
 
 /*  */
 
-.mfa-profile {
+.mh-profile {
   --img-size: 30vmax;
   --max-size: 275px;
 
@@ -24,7 +24,7 @@
 
 /*  */
 
-.mfa-personal-message {
+.mh-personal-message {
   text-align: justify;
   line-height: 1.6;
 
@@ -35,13 +35,13 @@
 
 /*  */
 
-.mfa-social-links {
+.mh-social-links {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   padding: 1em;
 }
-.mfa-social-links > a {
+.mh-social-links > a {
   --size: 8vmin;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -64,44 +64,44 @@
   margin: 0 1em;
 }
 
-.mfa-social-links i {
+.mh-social-links i {
   color: #727272;
   transition: all 0.4s;
   font-size: 2em;
 }
-.mfa-social-links > a:hover i {
+.mh-social-links > a:hover i {
   transform: scale(0.96);
 }
 
-.mfa-social-links .email:hover i {
+.mh-social-links .email:hover i {
   color: #181b26;
 }
-.mfa-social-links .email:focus i {
+.mh-social-links .email:focus i {
   color: #45474c;
 }
 
-.mfa-social-links .github:hover i {
+.mh-social-links .github:hover i {
   color: #6e5494;
 }
-.mfa-social-links .github:focus i {
+.mh-social-links .github:focus i {
   color: #a38bc9;
 }
 
-.mfa-social-links .linkedin:hover i {
+.mh-social-links .linkedin:hover i {
   color: #0e76a8;
 }
-.mfa-social-links .linkedin:focus i {
+.mh-social-links .linkedin:focus i {
   color: #2498ce;
 }
 
-.mfa-social-links .portfolio:hover i {
+.mh-social-links .portfolio:hover i {
   color: #181b26;
 }
-.mfa-social-links .portfolio:focus i {
+.mh-social-links .portfolio:focus i {
   color: #45474c;
 }
 
-.mfa-social-links > a:hover {
+.mh-social-links > a:hover {
   box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
     inset 6px 6px 16px rgba(209, 217, 230, 0.8),
     inset 8px 8px 8px rgba(255, 255, 255, 0.2);
@@ -111,7 +111,7 @@
 /*  */
 
 @media screen and (max-width: 300px) {
-  .mfa-profile {
+  .mh-profile {
     --img-size: 50vw;
   }
 }

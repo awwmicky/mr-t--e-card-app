@@ -1,12 +1,5 @@
 .component { text-align: center; }
 
-main { flex: 1 1 auto; }
-main .container-wrapper {
-    max-width: 960px;
-    height: 100%;
-    margin: 0 auto;
-}
-
 /*  */
 
 body {

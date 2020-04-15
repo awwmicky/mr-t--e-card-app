@@ -13,7 +13,7 @@ export default function LarryNan () {
           alt="student-profile-pic"
         />
         <div className="card-body">
-          <h3 className="card-title font-weight-bold">
+          <h3 className="card-title font-weight-bold text-center">
             Larry Nan
           </h3>
           <blockquote className="card-text text-left">
