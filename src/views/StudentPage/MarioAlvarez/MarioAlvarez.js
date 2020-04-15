@@ -13,7 +13,7 @@ export default function MarioAlvarez() {
           master my craft. Cheers!
         </p>
 
-        <img src="./images/mario.jpg" alt="mario-profile" />
+        <img src="./assets/images/other/mario.jpg" alt="mario-profile" />
 
         <p className="lead">
           <a
