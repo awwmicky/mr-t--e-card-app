@@ -1,8 +1,20 @@
-/* EDIT THIS COMPONENT */
-import React from 'react'
-import './LarryNan.css'
+/* ——— YOU EDIT THIS PAGE ——— */
+/*
+=== FOLLOW THESE INSTRUCTIONS ===
+1 - add your full name to the <h2> tag
 
-export default function LarryNan () {
+2 - add you image in the `profile-pic` folder
+  - open root > public/assets/images/profile-pic/ & paste your image there
+  - on the <img> tag, replace `< your-profile.img >` with your image file
+
+3 - add your a nice message to Thomas in the <p> tag
+  - it can be a thank you, a fun memory, and or a useful tip
+*/
+
+import React from 'react'
+import './JimmyNguyen.css'
+
+export default function JimmyNguyen () {
 
   return (
     <main className="d-flex align-items-center justify-content-center">
@@ -14,7 +26,7 @@ export default function LarryNan () {
         />
         <div className="card-body">
           <h3 className="card-title font-weight-bold">
-            Larry Nan
+            Your First & Last Name
           </h3>
           <blockquote className="card-text text-left">
             Thank you Thomas.
@@ -42,9 +54,9 @@ export default function LarryNan () {
             ><i className="fab fa-linkedin"></i>
             </a>
           </div>
-        </div>
       </div>
-    </main>
+    </div>
+  </main>
   );
 
 }

@@ -20,10 +20,6 @@ div#root {
   line-height: 1.15;
 }
 
-html { border: 2px solid black; }
-body { border: 2px solid silver; }
-div#root { border: 2px solid gray; }
-
 /*  */
 
 div#root {

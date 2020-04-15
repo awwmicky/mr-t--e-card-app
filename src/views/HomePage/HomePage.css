@@ -1,0 +1,18 @@
+.home-page {
+    height: 100%;
+    position: relative;
+}
+
+.e-card-app {
+    height: 100%;
+}
+
+.mr-t-profile {
+    position: absolute;
+    /* height: 100%; */
+}
+
+.e-card-front {
+    position: absolute;
+    height: 100%;
+}

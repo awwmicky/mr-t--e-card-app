@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .matt-page {
     /* background-color: steelblue; */
     /* background-color: wheat; */
     background-color: coral;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .matt-page > * {
@@ -14,10 +17,18 @@
     font-weight: 800;
 }
 
+.matt-image {
+    width: 450px;
+}
+
 .matt-page p {
-    color: hotpink;
+    color: blueviolet;
 }
 
 .matt-page div a {
+    margin: 0 10px;
+}
+
+.matt-page div i {
     color: lavender;
 }

@@ -5,7 +5,7 @@ import "./MichaelAlvarez.css";
 export default function MichaelAlvarez() {
   return (
     <main className="component mfa-page">
-      <div className="container-wrapper">
+      <div className="container-wrapper mfa-card">
         <h2 className="mfa-full-name">
           <span> Micky </span>
           <a
@@ -27,7 +27,7 @@ export default function MichaelAlvarez() {
           </a>
         </h2>
         <img
-          src="./assets/images/other/michael-alvarez.jpg"
+          src="./assets/images/profile-pic/michael-alvarez.jpg"
           alt="mfa-profile"
           className="mfa-profile"
         />

@@ -115,3 +115,47 @@
     --img-size: 50vw;
   }
 }
+
+
+
+/*  */
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px !important;
+    /* width: 18rem; */
+    max-width: 350px;
+}
+
+.card:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
+
+.icon-block {
+    --link-color: #007bff;
+    --center: 35px;
+}
+
+/* .icon-block a { text-decoration: none; } */
+
+.icon-block i {
+    border: 1px solid var(--link-color);
+    color: var(--link-color);
+
+    transition: all 1s ease;
+    border-radius: 1.5rem;
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: var(--center);
+
+    width: var(--center);
+    height: var(--center);
+    margin:0 0.5rem;
+}
+
+.icon-block i:hover {
+    background:var(--link-color);
+    color:#fff;
+}
