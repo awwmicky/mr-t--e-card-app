@@ -13,14 +13,14 @@ export default function LarryNan () {
           alt="student-profile-pic"
         />
         <div className="card-body">
-          <h3 className="card-title font-weight-bold">
+          <h3 className="card-title font-weight-bold text-center">
             Larry Nan
           </h3>
           <blockquote className="card-text text-left">
-            Still remember your face when you first called Laura's name, but looking at me because you thought you were calling me. 
+            Still remember your face when you first called Laura's name, but looking at me because you thought you were calling me.Haha!
             Bootcamp went first with you and I have learned a lot. Thank you for all your laughs and knowledge.
             <br/>
-            Thank you Thomas for   
+           
           </blockquote>
           <div className="icon-block text-center">
             <a
@@ -36,7 +36,7 @@ export default function LarryNan () {
             ><i className="fab fa-github"></i>
             </a>
             <a
-              href="linkedin.com/in/lawrence-nan"
+              href="https://linkedin.com/in/lawrence-nan"
               target="_blank"
               rel="noopener noreferrer"
               title="LinkedIn"
