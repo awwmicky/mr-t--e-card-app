@@ -1,7 +1,19 @@
 [
-  { "name": "michael alvarez" },
-  { "name": "mario alvarez" },
-  { "name": "adnan niaz" },
-  { "name": "larry nan" },
-  { "name": "matthew romano" }
+  { "name" : "michael alvarez"   },
+  { "name" : "mario alvarez"     },
+  { "name" : "adnan niaz"        },
+  { "name" : "larry nan"         },
+  { "name" : "matthew romano"    },
+  { "name" : "patricio aguilar"  },
+  { "name" : "jennifer ni"       },
+  { "name" : "martin nguyen"     },
+  { "name" : "jimmy nguyen"      },
+  { "name" : "sarah jo"          },
+  { "name" : "mohamed htout"     },
+  { "name" : "enkhtaivan sainer" },
+  { "name" : "herman liu"        },
+  { "name" : "huan nguyen"       },
+  { "name" : "laura bao"         },
+  { "name" : "wilson wong"       },
+  { "name" : "wanjing zhou"      }
 ]

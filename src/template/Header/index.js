@@ -95,10 +95,10 @@ function Header (props) {
 
   return (
     <header>
-      <div className="wrapper">
-        <h1>
+      <div className="container-wrapper">
+        <h1 className="project-title">
           <Link to="/">
-            Project E-Card
+            { `${ `Thank You { MR-T }` }` }
           </Link>
         </h1>
         <form

@@ -16,7 +16,7 @@ export default function AdnanNiaz() {
     >
       <div className="view-first pt-3">
         <img
-          src="./assets/images/other/adi.jpg"
+          src="./assets/images/profile-pic/adi.jpg"
           alt="student-portfolio"
           style={{ width: "200px", borderRadius: "50%", position: "relative" }}
         />

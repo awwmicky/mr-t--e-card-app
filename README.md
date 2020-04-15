@@ -94,7 +94,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
   <h2>First & Last Name</h2>
   <img
     src="./assets/images/other/< your-profile.img >"
-    alt="student-portfolio"
+    alt="student-portfolio-pic"
   />
   <p>
     - a memorable/funny moment with Thomas & the class

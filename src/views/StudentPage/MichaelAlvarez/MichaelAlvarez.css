@@ -1,10 +1,17 @@
 /* .mfa-page div > * { margin: 10px 0; } */
+.mfa-page {
+  background: #45474c;
+}
 
 /*  */
 
 .mfa-full-name,
 .mfa-full-name > a {
   cursor: crosshair;
+}
+
+.mfa-card {
+  background: white;
 }
 
 /*  */
