@@ -1,10 +1,7 @@
 // import * as serviceWorker from './serviceWorker'
 import ReactDOM from "react-dom";
 import React from "react";
-import {
-  BrowserRouter as Router
-  , Route , Switch
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Header from "./template/Header/";
 import ErrorPage from "./views/ErrorPage/";
@@ -30,6 +27,7 @@ import WilsonWong from "./views/StudentPage/WilsonWong/WilsonWong";
 import WanJingZhou from "./views/StudentPage/WanJingZhou/WanJingZhou";
 
 import Test from "./views/StudentPage/--COPY-PASTE-RENAME/___";
+
 /* ↑↑↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑↑↑ */
 
 import "./assets/index.css";
