@@ -39,7 +39,7 @@ the deadline is to finish this by **APRIL 30**
     - (tip) to use the image into your component
         - `<img src="./assets/images/profile-pic/_[your-profile-pic.img]_" alt="student-profile" />`
 3. **update your component**
-    - go to `./src/views/StudentPage/_[YourName]_`
+    - go to `./src/views/StudentPage/_[YourName]_/`
         - open `./_[YourName]_.js`
         - this is your component to add & delete stuff
         - so you can edit whatever you want & style up in any additional way you want
@@ -132,7 +132,7 @@ the deadline is to finish this by **APRIL 30**
 - **can I use Bootstrap?**
     - yes you can and or React-Bootstrap
 - read `Q & A` if setup instructions are confusing
-    - **[Read Q & A Now](#repo-setup)**
+    - **[Read Q & A Now](./docs/q-and-a.md)**
     - send me an open feedback if there are parts in this `README.md` file that is confusing
         - there is always room for improvement for the next reader
         - thanks for reading this and well, helping out
