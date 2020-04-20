@@ -9,6 +9,8 @@ Now onto this e-card app. This is the best way for us all to make a thank you ca
 
 For this e-card app, the goal is to have us ~20 students (all) contribute to this GitHub repository & create your react component. Then finally, get it deployed. If/Once I get all of ya to get the MVP done, then it will be time to show Thomas this gift. From all of us to him. Yeeet! 🔥🔥🔥
 
+the deadline is to finish this by **APRIL 30**
+
 ---
 
 ## Repo Setup
@@ -20,44 +22,47 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
     - click on `michael alvarez`
     - done
 
-## Create Student Component Setup
-1. **go to `./src/students.json`**
-    - add your name to the `student.json` file
-        - make you name all lowercase
-    - **COPY:** `{ "name" : "<your name>" }`
-2. **go to `./public/assets/images/other/`**
-    - skip step to add for later
-    - add your profile image here
-        - `/other/<your-profile.img>`
-    - (optional) rename image file to your first & last name
+## Add Your 'Thank You' Component Setup
+1. **check if you name is there (optional)**
+    - go to `./src/index.js`
+        - check `import _[YourName]_ from ...`
+        - check `<Route exact path="_[your-name]_" component={_[YourName]_} />`
+    - go to `./src/students.json`
+        - check `{ "name" : "_[your name]_" }`
+    - go to `./src/views/StudentPage/`
+        - check `./StudentPage/_[YourName]_/`
+2. **add your profile pic**
+    - go to `./public/assets/images/profile-pic/`
+        - you can skip step this step to add for later
+    - add your image here `./profile-pic/_[your-profile-pic.img]_`
+        - (optional) rename image file to your first & last name
     - (tip) to use the image into your component
-        - `<img src="./assets/images/other/<your-profile.img>" alt="student-profile" />`
-3. **go to `./src/views/StudentPage/`**
-    - follow these steps
-        - copy the `--COPY-PASTE-RENAME` template folder
-        - paste it on the `/StudentPage/` folder
-        - rename the new `--COPY-PASTE-RENAME copy` folder & files with your first & last name
-    - rename folder & file to your first & last name
-        - `/StudentPage/FirstNameLastName/` & `FirstNameLastName.css FirstNameLastName.js`
-        - e.g: `/StudentPage/MichaelAlvarez/` & `MichaelAlvarez.css MichaelAlvarez.js`
-    - open `<YourName>.js`, then replace `FirstNameLastName` with your first & last name
-        - e.g: `import './MichaelAlvarez.css'` & `export default function MichaelAlvarez () {}`
-4. **go to `./src/index.js`**
-    - import & route your component
-        - proper syntax setup
-            - component === YourName
-            - route path === your-name
-    - replace `first-name-last-name` / `FirstNameLastName` with your first & last name
-        - **COPY:** `import FirstNameLastName from './views/StudentPage/FirstNameLastName/FirstNameLastName';`
-        - e.g: `import MichaelAlvarez from './views/StudentPage/MichaelAlvarez/MichaelAlvarez';`
-        - **COPY:** `<Route exact path="/first-name-last-name>" component={ FirstNameLastName } />`
-        - e.g: `<Route exact path="/michael-alvarez>" component={ MichaelAlvarez } />`
-5. **open terminal & test**
+        - `<img src="./assets/images/profile-pic/_[your-profile-pic.img]_" alt="student-profile" />`
+3. **update your component**
+    - go to `./src/views/StudentPage/_[YourName]_`
+        - open `./_[YourName]_.js`
+        - this is your component to add & delete stuff
+        - so you can edit whatever you want & style up in any additional way you want
+    - **minimum requirements**
+        - add your name
+        - add your image
+        - add a message for Thomas
+            - a memorable/funny moment with Thomas & the class
+            - a personal message for Thomas to read
+        - add your social links
+            - e.g: email | GitHub | LinkedIn
+    - **bonus challenge**
+        - style it a bit more with CSS and or Bootstrap
+        - add a hidden easter egg (link) in your component
+        - add a snippet feature you want to show off
+    - read `MVP Component Breakdown` for more info
+        - **[Read MVP Component Breakdown Now](#mvp-component-breakdown)**
+4. **open terminal & test**
     - `npm start` → open browser
     - click the search button
-    - search & select your name
+    - search, then select/type your name
     - done
-6. **push to GitHub**
+5. **push to GitHub**
     - `git checkout -b <branch-name>`
     - `git add *`
     - `git commit -m "component update"`
@@ -67,25 +72,24 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
         - delete GitHub branch → go to vscode
         - `git checkout master`
         - `git pull`
-- read Git Collab Setup doc. if confused
+    - done
+- read `Git Collab Setup` for a quick process
     -   **[Read Git Collab Setup Now](./docs/git-collab-setup.md)**
-- read Q & A if setup instructions are confusing
-    - **[Read Q & A Now](#repo-setup)**
-    - send me open feedback if there are parts in this `README.md` file that is confusing
-        - there is always room for improvement for the next reader
-        - thanks for reading this and well, helping out
+- read `Student Component Setup` for creating component
+    - **[Read Student Component Setup Now](./docs/create-student-component-setup.md)**
 
 ---
 
 ## MVP Component Breakdown
-- minimum: name, image, message, & links
-- add any additional stuff onto your component
-    - personal/bonus feature
-    - styling/interacting
-    - random easter egg?
-- go simple or go crazy with it all
-    - make it a networking looking app
-    - make it a creative looking app
+- minimum requirements: name | image | message | links
+- bonus challenge:
+    - add any additional stuff onto your component
+        - personal/bonus feature
+        - styling/interacting
+        - random easter egg?
+    - go simple or go crazy with it all
+        - make it a networking looking app
+        - make it a creative looking app
 - component template:
 
 ```jsx
@@ -93,7 +97,7 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 <main>
   <h2>First & Last Name</h2>
   <img
-    src="./assets/images/other/< your-profile.img >"
+    src="./assets/images/profile-pic/_[your-profile-pic.img]_"
     alt="student-portfolio-pic"
   />
   <p>
@@ -115,94 +119,23 @@ For this e-card app, the goal is to have us ~20 students (all) contribute to thi
 )
 ```
 
-## Quick Read Setup (...if readable)
-- setup student DB (json)
-    - add your name to the `student.json` file
-        - `{ "name" : "<your-name>" }`
-- setup component
-    - create a component in `/src/views/StudentPage` path
-        - `/YourName → YourName.css YourName.js`
-    - import & route your component
-        - replace `___` with `<YourName>`
-        - replace `~~~` with `<your-name>`
-        - `import ___ from './views/StudentPage/___/___';`
-        - `<Route exact path="/~~~>" component={ ___ } />`
-- setup image
-    - add your image in `/public/assets/images/other` path
-        - `/<your-profile.img>`
-    - use image in your component
-        - `<img src="./assets/images/other/<your-profile.img>" alt="student-profile" />`
-
 ---
 
-## Q & A
+## Quick Q & A
 - **do I push to the (git) master branch?**
     - NO NO NOOOOOO!!! thank you.
     - create a (git) branch first, then push from your branch
-- **can I use Bootstrap?**
-    - yes, with `react-bootstrap`
-    - you will need to import this
-        - `import { < bootstrap > } from "react-bootstrap";`
-    - read this for more info
-        - `https://react-bootstrap.github.io/`
-    - or use regular Bootstrap style
-        - `<button className="btn btn-primary">Click</button>`
-- **what are the steps for git collaboration?**
-    - **[Read Git Collab Setup](./docs/git-collab-setup.md)**
-- **what is the url to the GitHub Repository?**
-    - GitHub: https://github.com/awwmicky/mr-t--e-card-app
-    - Webpage: **TBA**
 - **what do I need to do?**
     - once you got the invite, read this doc: **[Repo Setup](#repo-setup)**
     - `git clone` this repository
-    - create a react component in `/views/StudentPage/`
-- **does syntax matter for this?**
-    - YES, VERY! The main pattern to follow is setting up your name
-    - `<YourName />` | `/your-name` | `"your name"`
-- **how do I push to the repository?**
-    - open `./docs/git-collab-setup.md`
-    - using `git checkout -b <branch-name>` for branches
-    - or ask me any questions, maybe
-- **can I approve & merge the pull request?**
-    - for no accidental (git) push to the master, there will be a set permission to this GitHub Repository
-    - you are able to merge if someone else approves your pull request
-    - the admin will try to approve & merge ASAP
-- **will there be any merge conflicts?**
-    - if you read this `README.md` file, no
-    - since react is component based, there should not be any merge conflicts
-        - if this is a merge conflict, let me know ASAP to resolve it
-        - send me a message via Slack, Discord, or GitHub Issue's
-- **how can I track/keep this repository**
-    - check to see 3 buttons: Watch, Star, Fork
-    - click `Fork` to keep a copy of this repository, and it will be added to your GitHub Account
-    - click `Star` to follow-up with this repository
-    - click `Watch` to track any new updates from this repository
-- **how do I know if I have access to this GitHub Repository?**
-    - I (Micky) will send out a link for us to collaborate
-    - if you did not receive it, send me a message via Slack or Discord
-- **what are you (Micky) doing with this app?**
-    - I want to have an app where the whole class collaborate
-    - make an app for networking & appreciation
-    - maybe try to get the TA's and us all to contribute
-- **can I follow you on GitHub?**
-    - sure thing! 😨  https://github.com/awwmicky
-    - better question! 🤔 can I (Micky) follow you on GitHub? Send me you GitHub page
-- **how can we communicate to you (Micky)?**
-    - Slack
-        - UCB-SF...
-        - Trilogy Network
-    - Discord
-        - a link to Discord
-        - https://discord.gg/SbjB4t3
-- **what is the next thing you (Micky) are going to do?**
-    - write a novel, travel the world, & meditate on a mountain. Well maybe. hmm…
-    - the next small project will be re-learning & building an Authentication App
-    - still interested in making an open source full-stack app
-        - Dashboard App
-        - modular components & menu setting
-        - https://momentumdash.com/
-        - https://bit.ly/momentum-chrome-app
-    - let me know if anyone is down!
+    - edit your react component in `./src/views/StudentPage/`
+- **can I use Bootstrap?**
+    - yes you can and or React-Bootstrap
+- read `Q & A` if setup instructions are confusing
+    - **[Read Q & A Now](#repo-setup)**
+    - send me an open feedback if there are parts in this `README.md` file that is confusing
+        - there is always room for improvement for the next reader
+        - thanks for reading this and well, helping out
 
 ---
 
