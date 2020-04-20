@@ -12,9 +12,9 @@
 */
 
 import React from "react";
-import "./SarahJo.css";
+import "./SarahNaas.css";
 
-export default function SarahJo() {
+export default function SarahNaas() {
   return (
     <main className="d-flex align-items-center justify-content-center">
       <div className="card">

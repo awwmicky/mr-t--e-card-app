@@ -17,7 +17,7 @@ import PatricioAguilar from "./views/StudentPage/PatricioAguilar/PatricioAguilar
 import JenniferNi from "./views/StudentPage/JenniferNi/JenniferNi";
 import MartinNguyen from "./views/StudentPage/MartinNguyen/MartinNguyen";
 import JimmyNguyen from "./views/StudentPage/JimmyNguyen/JimmyNguyen";
-import SarahJo from "./views/StudentPage/SarahJo/SarahJo";
+import SarahNaas from "./views/StudentPage/SarahNaas/SarahNaas";
 import MohamedHtout from "./views/StudentPage/MohamedHtout/MohamedHtout";
 import EnkhtaivanSainEr from "./views/StudentPage/EnkhtaivanSainEr/EnkhtaivanSainEr";
 import HermanLiu from "./views/StudentPage/HermanLiu/HermanLiu";
@@ -53,7 +53,7 @@ function App() {
           <Route exact path="/jennifer-ni" component={JenniferNi} />
           <Route exact path="/martin-nguyen" component={MartinNguyen} />
           <Route exact path="/jimmy-nguyen" component={JimmyNguyen} />
-          <Route exact path="/sarah-jo" component={SarahJo} />
+          <Route exact path="/sarah-naas" component={SarahNaas} />
           <Route exact path="/mohamed-htout" component={MohamedHtout} />
           <Route exact path="/enkhtaivan-sainer" component={EnkhtaivanSainEr} />
           <Route exact path="/herman-liu" component={HermanLiu} />

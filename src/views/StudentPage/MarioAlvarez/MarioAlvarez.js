@@ -5,7 +5,7 @@ export default function MarioAlvarez() {
     <main className="d-flex justify-content-center flex-column border border-primary align-items-center">
       <div className="card d-flex justify-content-center flex-column text-center col-md-4">
         <div className="card-body pt-5">
-          <h1 className="display-4 card-title text-center">Mario Alvarez</h1>
+          <h2 className="display-4 card-title text-center">Mario Alvarez</h2>
 
           <img
             src="./assets/images/profile-pic/mario.jpg"

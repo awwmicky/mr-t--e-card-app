@@ -100,10 +100,13 @@ the deadline is to finish this by **APRIL 30**
     src="./assets/images/profile-pic/_[your-profile-pic.img]_"
     alt="student-portfolio-pic"
   />
-  <p>
+  <blockquote className="card-text text-left">
+    Thank you Thomas.
+    <br/>
+    [ add your message here ]
     - a memorable/funny moment with Thomas & the class
     - additional message for Thomas (feedback/question)
-  </p>
+  </blockquote>
   <div>
     <a
       href="/"
