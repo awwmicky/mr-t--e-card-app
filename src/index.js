@@ -27,7 +27,6 @@ import WilsonWong from "./views/StudentPage/WilsonWong/WilsonWong";
 import WanJingZhou from "./views/StudentPage/WanJingZhou/WanJingZhou";
 
 import Test from "./views/StudentPage/--COPY-PASTE-RENAME/___";
-
 /* ↑↑↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑↑↑ */
 
 import "./assets/index.css";
