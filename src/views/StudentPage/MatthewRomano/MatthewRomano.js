@@ -18,7 +18,7 @@ export default function MatthewRomano () {
       </p>
       <div>
         <a
-          href="mailto:..."
+          href="mailto:coldesttwoevertdoit@gmail.com"
           title="Direct Email"
           className="email btn btn-danger"
         >

@@ -20,7 +20,7 @@ export default function LauraBao() {
     <main className="d-flex align-items-center justify-content-center">
       <div className="card">
         <img
-          className="card-img card-img"
+          className="card-img"
           src="./assets/images/profile-pic/laura.JPG"
           alt="student-profile-pic"
         />
@@ -30,8 +30,8 @@ export default function LauraBao() {
           </h3>
           <blockquote className="card-text text-left">
             Thank you Thomas.
-            <br />I have learned a lot in this class. I really appreciate your effort to keep me in the class instead of giving up on the second week. I do not know how far I can go with coding as a career change, but it definitely helps me in the long term.
-
+            <br />
+            I have learned a lot in this class. I really appreciate your effort to keep me in the class instead of giving up on the second week. I do not know how far I can go with coding as a career change, but it definitely helps me in the long term.
           </blockquote>
           <div className="icon-block text-center">
             <a
