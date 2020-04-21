@@ -13,8 +13,13 @@ export default function MatthewRomano () {
         alt="student-portfolio"
       />
       <p>
-        - a memorable/funny moment with Thomas & the class
-        - additional message for Thomas (feedback/question)
+        Your are my Hacker-Man <span aria-label="emoji" role="img">👨‍💻</span>
+        <br/>
+        I am your ABG-Man <span aria-label="emoji" role="img">🐱‍👤</span>
+        <br/>
+        Together we become Hacker Unite <span aria-label="emoji" role="img">🐱‍🐉</span>
+        <br/>
+        Do you want to develop an app?
       </p>
       <div>
         <a
@@ -34,7 +39,7 @@ export default function MatthewRomano () {
           <i className="fab fa-github"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/.../"
+          href="https://www.linkedin.com/in/matthew-romano-37560a196/"
           target="_blank"
           rel="noopener noreferrer"
           title="LinkedIn Account"
