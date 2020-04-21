@@ -8,7 +8,7 @@ export default function LarryNan () {
     <main className="d-flex align-items-center justify-content-center">
       <div className="card">
         <img
-          className="card-img card-img"
+          className="card-img"
           src="./assets/images/profile-pic/larrynan.JPG"
           alt="student-profile-pic"
         />
@@ -20,7 +20,7 @@ export default function LarryNan () {
             Still remember your face when you first called Laura's name, but looking at me because you thought you were calling me.Haha!
             Bootcamp went first with you and I have learned a lot. Thank you for all your laughs and knowledge.
             <br/>
-           
+
           </blockquote>
           <div className="icon-block text-center">
             <a

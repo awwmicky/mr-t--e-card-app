@@ -20,7 +20,7 @@ export default function PatricioAguilar () {
     <main className="d-flex align-items-center justify-content-center">
       <div className="card">
         <img
-          className="card-img card-img"
+          className="card-img"
           src="./assets/images/profile-pic/< your-profile-pic.img >"
           alt="student-profile-pic"
         />

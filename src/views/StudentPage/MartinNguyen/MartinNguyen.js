@@ -21,7 +21,7 @@ export default function MartinNguyen() {
     <main className="d-flex align-items-center justify-content-center">
       <div className="card">
         <img
-          className="card-img card-img"
+          className="card-img"
           src="./assets/images/profile-pic/martinnguyen.jpeg"
           alt="student-profile-pic"
         />

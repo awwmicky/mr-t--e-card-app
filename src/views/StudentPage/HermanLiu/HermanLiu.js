@@ -20,8 +20,8 @@ export default function HermanLiu () {
     <main className="d-flex align-items-center justify-content-center">
       <div className="card">
         <img
-          className="card-img card-img"
-          src="./assets/images/profile-pic/< your-profile-pic.img >"
+          className="card-img"
+          src="./assets/images/profile-pic/_[your-profile-pic.img]_"
           alt="student-profile-pic"
         />
         <div className="card-body">

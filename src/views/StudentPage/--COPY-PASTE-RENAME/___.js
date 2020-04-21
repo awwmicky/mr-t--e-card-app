@@ -21,7 +21,7 @@ export default function ___ () {
       <div className="card">
         <img
           className="card-img"
-          src="./assets/images/profile-pic/< your-profile-pic.img >"
+          src="./assets/images/profile-pic/_[your-profile-pic.img]_"
           alt="student-profile-pic"
         />
         <div className="card-body">

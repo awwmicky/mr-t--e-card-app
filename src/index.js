@@ -24,7 +24,6 @@ import HermanLiu from "./views/StudentPage/HermanLiu/HermanLiu";
 import HuanNguyen from "./views/StudentPage/HuanNguyen/HuanNguyen";
 import LauraBao from "./views/StudentPage/LauraBao/LauraBao";
 import WilsonWong from "./views/StudentPage/WilsonWong/WilsonWong";
-import WanJingZhou from "./views/StudentPage/WanJingZhou/WanJingZhou";
 
 import Test from "./views/StudentPage/--COPY-PASTE-RENAME/___";
 /* ↑↑↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑↑↑ */
@@ -59,7 +58,6 @@ function App() {
           <Route exact path="/huan-nguyen" component={HuanNguyen} />
           <Route exact path="/laura-bao" component={LauraBao} />
           <Route exact path="/wilson-wong" component={WilsonWong} />
-          <Route exact path="/wanjing-zhou" component={WanJingZhou} />
 
           <Route exact path="/test" component={Test} />
           {/* ↑↑↑ ADD YOUR ROUTE COMPONENT HERE ↑↑↑ */}
