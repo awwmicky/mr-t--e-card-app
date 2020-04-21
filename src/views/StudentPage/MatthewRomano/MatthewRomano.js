@@ -18,11 +18,11 @@ export default function MatthewRomano () {
       </p>
       <div>
         <a
-          href="mailto:coldesttwoevertdoit@gmail.com"
+          href="mailto:coldest2everdoit@gmail.com"
           title="Direct Email"
           className="email btn btn-danger"
         >
-          <i className="fas fa-envelope-square"> </i>
+          <i className="fas fa-envelope-square"></i>
         </a>
         <a
           href="https://www.github.com/BackpackBoy27"
@@ -31,7 +31,7 @@ export default function MatthewRomano () {
           title="GitHub Account"
           className="github btn btn-danger"
         >
-          <i className="fab fa-github"> </i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/.../"
@@ -40,7 +40,7 @@ export default function MatthewRomano () {
           title="LinkedIn Account"
           className="linkedin btn btn-danger"
         >
-          <i className="fab fa-linkedin"> </i>
+          <i className="fab fa-linkedin"></i>
         </a>
       </div>
     </main>
