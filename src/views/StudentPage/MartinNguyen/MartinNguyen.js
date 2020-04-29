@@ -18,7 +18,7 @@ import './MartinNguyen.css'
 export default function MartinNguyen() {
 
   return (
-    <main className="d-flex align-items-center justify-content-center">
+    <main className="mainPage">
       <div className="card">
         <img
           className="card-img card-img"
@@ -44,7 +44,7 @@ export default function MartinNguyen() {
             To Be Continued...
 
           </blockquote>
-          <div className="icon-block text-center">
+          <div className="socialLinks">
             <a
               href="mailto: ngumartin@gmail.com"
               title="Direct Email"
