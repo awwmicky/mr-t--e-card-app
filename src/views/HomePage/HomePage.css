@@ -1,18 +1,151 @@
 .home-page {
-    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.e-card-container {
     position: relative;
+    width: 350px;
+    height: 450px;
 }
 
-.e-card-app {
+.e-card-container:hover .e-card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.e-card-container:hover .cover {
+    transform: rotateY(-180deg);
+}
+
+.e-card-container:hover .easter-egg-t img {
+    transform:
+        scale(1)
+        rotate(90deg)
+        translateY(-12.5rem)
+    ;
+}
+
+.e-card-container:hover .welcome-text h2:nth-child(1) {
+    opacity: 1;
+    top: -4rem;
+}
+.e-card-container:hover .welcome-text h2:nth-child(2) {
+    opacity: 1;
+    bottom: -4rem;
+}
+
+/*  */
+
+.e-card, .cover {
+    border: 0.5px solid black;
+}
+
+.e-card {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.6s linear;
+    perspective: 1000px;
+
+    width: 100%;
     height: 100%;
+    /* margin: auto; */
 }
 
-.mr-t-profile {
-    /* position: absolute; */
-    /* height: 100%; */
+.cover {
+    transform-style: preserve-3d;
+    transition: transform 0.6s linear;
+    transform-origin: left;
+    /* transform: rotateY(-15deg); */
 }
 
-.e-card-front {
+.cover,
+.cover > div,
+.greeting
+{
     position: absolute;
+    width: 100%;
     height: 100%;
+}
+
+.cover > div { backface-visibility: hidden; }
+
+.front-side img,
+.back-side img,
+.greeting img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.cover { z-index: 3;}
+.front-side {
+    background: lightblue;
+}
+.back-side {
+    /* background: lightcoral; */
+    transform: rotateY(180deg);
+}
+.greeting { z-index: 2; }
+
+/*  */
+
+.easter-egg-t {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+    /* width: 300px; */
+    /* height: 300px; */
+}
+
+.easter-egg-t img {
+    transform:
+        scale(0.75)
+        rotate(90deg)
+        translateY(-6.25rem)
+    ;
+    transition: transform 0.6s ease-in-out;
+
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+
+.welcome-text {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome-text h2 {
+    transition: all 0.5s ease-in-out;
+
+    font-weight: 600;
+    text-align: left;
+    text-overflow: unset;
+    line-height: 1;
+    width: 400px;
+}
+
+.welcome-text h2:nth-child(1) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    /* top: -4rem; */
+}
+
+.welcome-text h2:nth-child(2) {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    /* bottom: -4rem; */
 }
