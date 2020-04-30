@@ -25,15 +25,14 @@ export default function AdnanNiaz() {
 
         <p
           style={{
-            width: "50%",
+            width: "300px",
             margin: "0 auto",
             padding: "40px 0",
             lineHeight: "22px",
             letterSpacing: ".5px",
           }}
         >
-          - A memorable/funny moment with Thomas &amp; the class - additional
-          message for Thomas (feedback/question)
+         From knowledge to challenge, thank you Thomas for keeping my mind on a goal to reach towards.
         </p>
       </div>
 

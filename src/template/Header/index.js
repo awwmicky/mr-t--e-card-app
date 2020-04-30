@@ -98,7 +98,7 @@ function Header (props) {
       <div className="container-wrapper">
         <h1 className="project-title">
           <Link to="/">
-            { `${ `Thank You { MR-T }` }` }
+            { `${ `Thank You { MR - T }` }` }
           </Link>
         </h1>
         <form

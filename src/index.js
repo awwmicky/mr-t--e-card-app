@@ -18,13 +18,7 @@ import JimmyNguyen    from "./views/StudentPage/JimmyNguyen/JimmyNguyen";
 import SarahNaas      from "./views/StudentPage/SarahNaas/SarahNaas";
 import MohamedHtout   from "./views/StudentPage/MohamedHtout/MohamedHtout";
 import LauraBao       from "./views/StudentPage/LauraBao/LauraBao";
-
-import HermanLiu from "./views/StudentPage/HermanLiu/HermanLiu";
-import HuanNguyen from "./views/StudentPage/HuanNguyen/HuanNguyen";
-import JenniferNi from "./views/StudentPage/JenniferNi/JenniferNi";
-import PatricioAguilar from "./views/StudentPage/PatricioAguilar/PatricioAguilar";
-import EnkhtaivanSainEr from "./views/StudentPage/EnkhtaivanSainEr/EnkhtaivanSainEr";
-import WilsonWong from "./views/StudentPage/WilsonWong/WilsonWong";
+import HermanLiu      from "./views/StudentPage/HermanLiu/HermanLiu";
 
 import Test from "./views/StudentPage/--COPY-PASTE-RENAME/___";
 /* ↑↑↑ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↑↑↑ */
@@ -34,7 +28,7 @@ import "./assets/reset.css";
 // import "./assets/test.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+function App () {
   return (
     <>
       <Router>
@@ -53,13 +47,7 @@ function App() {
           <Route exact path="/sarah-naas"      component={SarahNaas} />
           <Route exact path="/mohamed-htout"   component={MohamedHtout} />
           <Route exact path="/laura-bao"       component={LauraBao} />
-
-          <Route exact path="/herman-liu" component={HermanLiu} />
-          <Route exact path="/huan-nguyen" component={HuanNguyen} />
-          <Route exact path="/jennifer-ni" component={JenniferNi} />
-          <Route exact path="/patricio-aguilar" component={PatricioAguilar} />
-          <Route exact path="/enkhtaivan-sainer" component={EnkhtaivanSainEr} />
-          <Route exact path="/wilson-wong" component={WilsonWong} />
+          <Route exact path="/herman-liu"      component={HermanLiu} />
 
           <Route exact path="/test" component={Test} />
           {/* ↑↑↑ ADD YOUR ROUTE COMPONENT HERE ↑↑↑ */}

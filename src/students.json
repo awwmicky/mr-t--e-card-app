@@ -1,19 +1,13 @@
 [
-  { "name": "michael alvarez"   },
-  { "name": "mario alvarez"     },
-  { "name": "adnan niaz"        },
-  { "name": "larry nan"         },
-  { "name": "matthew romano"    },
-  { "name": "martin nguyen"     },
-  { "name": "jimmy nguyen"      },
-  { "name": "sarah naas"        },
-  { "name": "mohamed htout"     },
-  { "name": "laura bao"         },
-
-  { "name": "herman liu"        },
-  { "name": "huan nguyen"       },
-  { "name": "jennifer ni"       },
-  { "name": "patricio aguilar"  },
-  { "name": "enkhtaivan sainer" },
-  { "name": "wilson wong"       }
+  { "name" : "michael alvarez" },
+  { "name" : "mario alvarez"   },
+  { "name" : "adnan niaz"      },
+  { "name" : "larry nan"       },
+  { "name" : "matthew romano"  },
+  { "name" : "martin nguyen"   },
+  { "name" : "jimmy nguyen"    },
+  { "name" : "sarah naas"      },
+  { "name" : "mohamed htout"   },
+  { "name" : "laura bao"       },
+  { "name" : "herman liu"      }
 ]
