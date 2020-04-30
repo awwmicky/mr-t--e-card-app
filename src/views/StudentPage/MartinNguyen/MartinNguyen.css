@@ -1,12 +1,25 @@
+.mainPage {
+    background: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h3 {
+    color: cornflowerblue;
+}
+
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    --radius: 2rem;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
     transition: box-shadow 0.3s ease-in-out;
-    border-radius: 10px !important;
+    border-radius: 30px;
     /* width: 18rem; */
     max-width: 350px;
 }
 
-.card:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
+.card:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2); }
 
 .icon-block {
     --link-color: #007bff;
@@ -35,3 +48,43 @@
     background:var(--link-color);
     color:#fff;
 }
+
+.socialLinks {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.socialLinks > a {
+    --size: 8vmin;
+  
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: #e8eff5;
+    box-shadow:
+      7px 7px 15px #bbcfda, -4px -4px 13px #fff,
+      inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+      inset 8px 8px 8px rgba(255, 255, 255, 0.2)
+    ;
+  
+    transition: all 0.4s;
+    border-radius: 1rem;
+    /* line-height: var(--size); */
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: var(--size);
+    height: var(--size);
+    margin: 0.75em;
+  }
+
+  .socialLinks i {
+    color: cornflowerblue;
+    transition: all 0.2s;
+    font-size: 2em;
+  }
+  .socialLinks > a:hover i {
+    transform: scale(0.90);
+  }
+  
