@@ -16,10 +16,23 @@ h3 {
     transition: box-shadow 0.3s ease-in-out;
     border-radius: 30px;
     /* width: 18rem; */
-    max-width: 350px;
+    /* max-width: 350px; */
+    margin: 1em;
+}
+
+.mn-card {
+    max-width: 500px !important;
+    min-height: 400px;
 }
 
 .card:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2); }
+
+.mn-card img {
+    display: block;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
 
 .icon-block {
     --link-color: #007bff;
@@ -57,7 +70,7 @@ h3 {
 
 .socialLinks > a {
     --size: 8vmin;
-  
+
     border: 1px solid rgba(255, 255, 255, 0.3);
     background: #e8eff5;
     box-shadow:
@@ -65,15 +78,15 @@ h3 {
       inset 4px 4px 8px rgba(209, 217, 230, 0.2),
       inset 8px 8px 8px rgba(255, 255, 255, 0.2)
     ;
-  
+
     transition: all 0.4s;
     border-radius: 1rem;
     /* line-height: var(--size); */
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
     width: var(--size);
     height: var(--size);
     margin: 0.75em;
@@ -87,4 +100,3 @@ h3 {
   .socialLinks > a:hover i {
     transform: scale(0.90);
   }
-  

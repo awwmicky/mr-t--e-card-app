@@ -18,7 +18,7 @@ export default function LauraBao() {
 
   return (
     <main className="d-flex align-items-center justify-content-center">
-      <div className="card">
+      <div className="card lb-card">
         <img
           className="card-img"
           src="./assets/images/profile-pic/laura.JPG"

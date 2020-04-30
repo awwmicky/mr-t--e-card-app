@@ -14,7 +14,6 @@ import AdnanNiaz      from "./views/StudentPage/AdnanNiaz/AdnanNiaz";
 import LarryNan       from "./views/StudentPage/LarryNan/LarryNan";
 import MatthewRomano  from "./views/StudentPage/MatthewRomano/MatthewRomano";
 import MartinNguyen   from "./views/StudentPage/MartinNguyen/MartinNguyen";
-import JimmyNguyen    from "./views/StudentPage/JimmyNguyen/JimmyNguyen";
 import SarahNaas      from "./views/StudentPage/SarahNaas/SarahNaas";
 import MohamedHtout   from "./views/StudentPage/MohamedHtout/MohamedHtout";
 import LauraBao       from "./views/StudentPage/LauraBao/LauraBao";
@@ -43,7 +42,6 @@ function App () {
           <Route exact path="/larry-nan"       component={LarryNan} />
           <Route exact path="/matthew-romano"  component={MatthewRomano} />
           <Route exact path="/martin-nguyen"   component={MartinNguyen} />
-          <Route exact path="/jimmy-nguyen"    component={JimmyNguyen} />
           <Route exact path="/sarah-naas"      component={SarahNaas} />
           <Route exact path="/mohamed-htout"   component={MohamedHtout} />
           <Route exact path="/laura-bao"       component={LauraBao} />

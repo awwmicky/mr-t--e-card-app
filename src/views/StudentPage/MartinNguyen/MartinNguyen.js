@@ -19,7 +19,7 @@ export default function MartinNguyen() {
 
   return (
     <main className="mainPage">
-      <div className="card">
+      <div className="card mn-card">
         <img
           className="card-img"
           src="./assets/images/profile-pic/martinnguyen.jpeg"
@@ -33,7 +33,10 @@ export default function MartinNguyen() {
             Thank you Thomas.
             <br />
             <br />
-            I would have to say the whole Coding Bootcamp experience was the best memory. I couldn't have asked for a better teacher, TA's, and classmates, I really feel that we all lucked out. I appreciate every part of it, the stressfull days and sleepless nights. Also the sense of accomplishment and defeat all in one. I cherished the lunch breaks and talks with everyone. During project weeks was where you get to see everyone in their natural habitat haha. I'm far from the best student but I sure had the best time! And to see how far everyone has come was the best! And we have YOU to thank for that! Thank you for the knowledge and a great start to our coding career!
+            I would have to say the whole Coding Bootcamp experience was the best memory. I couldn't have asked for a better teacher, TA's, and classmates, I really feel that we all lucked out. I appreciate every part of it, the stressfull days and sleepless nights. Also the sense of accomplishment and defeat all in one. I cherished the lunch breaks and talks with everyone.
+            <br/>
+            <br/>
+            During project weeks was where you get to see everyone in their natural habitat haha. I'm far from the best student but I sure had the best time! And to see how far everyone has come was the best! And we have YOU to thank for that! Thank you for the knowledge and a great start to our coding career!
             <br />
             <br />
             Your Jedi Apprentice,
