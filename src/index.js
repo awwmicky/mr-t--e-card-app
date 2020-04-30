@@ -9,20 +9,21 @@ import HomePage from "./views/HomePage/";
 
 /* ↓↓↓ IMPORT YOUR STUDENT PAGE COMPONENT HERE ↓↓↓ */
 import MichaelAlvarez from "./views/StudentPage/MichaelAlvarez/MichaelAlvarez";
-import MarioAlvarez from "./views/StudentPage/MarioAlvarez/MarioAlvarez";
-import AdnanNiaz from "./views/StudentPage/AdnanNiaz/AdnanNiaz";
-import LarryNan from "./views/StudentPage/LarryNan/LarryNan";
-import MatthewRomano from "./views/StudentPage/MatthewRomano/MatthewRomano";
-import PatricioAguilar from "./views/StudentPage/PatricioAguilar/PatricioAguilar";
-import JenniferNi from "./views/StudentPage/JenniferNi/JenniferNi";
-import MartinNguyen from "./views/StudentPage/MartinNguyen/MartinNguyen";
-import JimmyNguyen from "./views/StudentPage/JimmyNguyen/JimmyNguyen";
-import SarahNaas from "./views/StudentPage/SarahNaas/SarahNaas";
-import MohamedHtout from "./views/StudentPage/MohamedHtout/MohamedHtout";
-import EnkhtaivanSainEr from "./views/StudentPage/EnkhtaivanSainEr/EnkhtaivanSainEr";
+import MarioAlvarez   from "./views/StudentPage/MarioAlvarez/MarioAlvarez";
+import AdnanNiaz      from "./views/StudentPage/AdnanNiaz/AdnanNiaz";
+import LarryNan       from "./views/StudentPage/LarryNan/LarryNan";
+import MatthewRomano  from "./views/StudentPage/MatthewRomano/MatthewRomano";
+import MartinNguyen   from "./views/StudentPage/MartinNguyen/MartinNguyen";
+import JimmyNguyen    from "./views/StudentPage/JimmyNguyen/JimmyNguyen";
+import SarahNaas      from "./views/StudentPage/SarahNaas/SarahNaas";
+import MohamedHtout   from "./views/StudentPage/MohamedHtout/MohamedHtout";
+import LauraBao       from "./views/StudentPage/LauraBao/LauraBao";
+
 import HermanLiu from "./views/StudentPage/HermanLiu/HermanLiu";
 import HuanNguyen from "./views/StudentPage/HuanNguyen/HuanNguyen";
-import LauraBao from "./views/StudentPage/LauraBao/LauraBao";
+import JenniferNi from "./views/StudentPage/JenniferNi/JenniferNi";
+import PatricioAguilar from "./views/StudentPage/PatricioAguilar/PatricioAguilar";
+import EnkhtaivanSainEr from "./views/StudentPage/EnkhtaivanSainEr/EnkhtaivanSainEr";
 import WilsonWong from "./views/StudentPage/WilsonWong/WilsonWong";
 
 import Test from "./views/StudentPage/--COPY-PASTE-RENAME/___";
@@ -30,7 +31,7 @@ import Test from "./views/StudentPage/--COPY-PASTE-RENAME/___";
 
 import "./assets/index.css";
 import "./assets/reset.css";
-import "./assets/test.css";
+// import "./assets/test.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -43,20 +44,21 @@ function App() {
 
           {/* ↓↓↓ ADD YOUR ROUTE COMPONENT HERE ↓↓↓ */}
           <Route exact path="/michael-alvarez" component={MichaelAlvarez} />
-          <Route exact path="/mario-alvarez" component={MarioAlvarez} />
-          <Route exact path="/adnan-niaz" component={AdnanNiaz} />
-          <Route exact path="/larry-nan" component={LarryNan} />
-          <Route exact path="/matthew-romano" component={MatthewRomano} />
-          <Route exact path="/patricio-aguilar" component={PatricioAguilar} />
-          <Route exact path="/jennifer-ni" component={JenniferNi} />
-          <Route exact path="/martin-nguyen" component={MartinNguyen} />
-          <Route exact path="/jimmy-nguyen" component={JimmyNguyen} />
-          <Route exact path="/sarah-naas" component={SarahNaas} />
-          <Route exact path="/mohamed-htout" component={MohamedHtout} />
-          <Route exact path="/enkhtaivan-sainer" component={EnkhtaivanSainEr} />
+          <Route exact path="/mario-alvarez"   component={MarioAlvarez} />
+          <Route exact path="/adnan-niaz"      component={AdnanNiaz} />
+          <Route exact path="/larry-nan"       component={LarryNan} />
+          <Route exact path="/matthew-romano"  component={MatthewRomano} />
+          <Route exact path="/martin-nguyen"   component={MartinNguyen} />
+          <Route exact path="/jimmy-nguyen"    component={JimmyNguyen} />
+          <Route exact path="/sarah-naas"      component={SarahNaas} />
+          <Route exact path="/mohamed-htout"   component={MohamedHtout} />
+          <Route exact path="/laura-bao"       component={LauraBao} />
+
           <Route exact path="/herman-liu" component={HermanLiu} />
           <Route exact path="/huan-nguyen" component={HuanNguyen} />
-          <Route exact path="/laura-bao" component={LauraBao} />
+          <Route exact path="/jennifer-ni" component={JenniferNi} />
+          <Route exact path="/patricio-aguilar" component={PatricioAguilar} />
+          <Route exact path="/enkhtaivan-sainer" component={EnkhtaivanSainEr} />
           <Route exact path="/wilson-wong" component={WilsonWong} />
 
           <Route exact path="/test" component={Test} />
