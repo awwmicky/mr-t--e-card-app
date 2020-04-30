@@ -75,6 +75,7 @@ form:focus-within > .search-box {
     --font-size: 13pt;
     --radius: 1.5rem;
 
+    border: 2px solid black;
     background: #fff;
 
     overflow: hidden;
